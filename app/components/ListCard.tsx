@@ -32,12 +32,11 @@ export default function ListCard({ quest, completeQuest }: ListCardProps) {
 
       {/* The actual card */}
       <div
-        onClick={() => !quest.completed && completeQuest(quest.questId)}
         className={`
-          relative flex rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] p-4 sm:p-6
+          relative flex w-full rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] p-4 sm:p-6
           shadow-[inset_0_1px_1px_rgba(212,175,55,0.1),0_4px_20px_rgba(0,0,0,0.5)]
           transition-all duration-200 
-          ${!quest.completed ? 'cursor-pointer hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)] active:scale-[0.98]' : 'opacity-80'}
+          ${!quest.completed ? 'hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)]' : 'opacity-80'}
         `}
       >
         {/* left: image */}
@@ -54,13 +53,18 @@ export default function ListCard({ quest, completeQuest }: ListCardProps) {
         )}
 
         {/* right: text */}
-        <div className="ml-4 flex flex-col justify-center text-[#e6ddc5]">
+        <div className="ml-4 flex flex-col justify-start text-[#e6ddc5] w-full">
           <p className="text-sm sm:text-base font-serif italic text-[#d4af37]/80 tracking-widest uppercase mb-1">
             {commands(quest.route)}
           </p>
-          <p className="text-xl sm:text-2xl font-serif font-bold tracking-wide drop-shadow-md">
+          <a
+            href={`https://eldenring.wiki.gg/wiki/Special:Search?search=${encodeURIComponent(quest.name)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl sm:text-2xl font-serif font-bold tracking-wide drop-shadow-md hover:text-[#fff] hover:underline decoration-[#d4af37]/60 underline-offset-4 transition-colors w-fit"
+          >
             {quest.name}
-          </p>
+          </a>
           <p className="mt-2 text-sm sm:text-base text-[#b3aa99] leading-relaxed line-clamp-3">
             {quest.description}
           </p>
@@ -69,6 +73,19 @@ export default function ListCard({ quest, completeQuest }: ListCardProps) {
               <span className="font-semibold text-[#d4af37]/60">Location Hint: </span>
               {quest.location}
             </p>
+          )}
+
+          {!quest.completed && (
+            <div className="mt-5 flex justify-end w-full">
+              <button
+                onClick={() => {
+                  completeQuest(quest.questId);
+                }}
+                className="px-6 py-2 bg-[#1a1814] border border-[#d4af37]/50 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:bg-[#2a2418] hover:border-[#d4af37] hover:shadow-[0_0_15px_rgba(212,175,55,0.3)] transition-all active:scale-95"
+              >
+                Complete
+              </button>
+            </div>
           )}
         </div>
       </div>
