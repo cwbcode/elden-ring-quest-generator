@@ -1,0 +1,89 @@
+"use client";
+import Image from "next/image";
+import { IdListItem, Route } from "../types";
+
+const commands = (route: Route): string => {
+  switch (route) {
+    case 'locations': return 'Explore this Location';
+    case 'npcs': return 'Speak to this individual';
+    case 'creatures': return 'Hunt this creature';
+    case 'bosses': return 'Defeat this great enemy';
+    default: return 'Retrieve this item';
+  }
+}
+
+type ListCardProps = {
+  quest: IdListItem & { completed: boolean };
+  completeQuest: (questId: number) => void;
+};
+
+
+export default function ListCard({ quest, completeQuest }: ListCardProps) {
+  return (
+    <div className="relative pl-12 sm:pl-16 w-full max-w-2xl mx-auto group">
+      {/* 
+        The node on the quest line. 
+        It sits to the left, on top of the vertical line rendered by the parent.
+      */}
+      <div
+        className={`absolute left-[11px] sm:left-[27px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full border-2 z-10 transition-colors duration-500
+          ${quest.completed ? 'bg-[#d4af37] border-[#d4af37] shadow-[0_0_10px_#d4af37]' : 'bg-[#1a1814] border-[#d4af37]/50'}`}
+      />
+
+      {/* The actual card */}
+      <div
+        onClick={() => !quest.completed && completeQuest(quest.questId)}
+        className={`
+          relative flex rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] p-4 sm:p-6
+          shadow-[inset_0_1px_1px_rgba(212,175,55,0.1),0_4px_20px_rgba(0,0,0,0.5)]
+          transition-all duration-200 
+          ${!quest.completed ? 'cursor-pointer hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)] active:scale-[0.98]' : 'opacity-80'}
+        `}
+      >
+        {/* left: image */}
+        {quest.image && (
+          <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 overflow-hidden rounded-lg border border-[#d4af37]/20 shadow-inner">
+            <Image
+              src={quest.image}
+              alt={quest.name}
+              width={128}
+              height={128}
+              className="h-full w-full object-cover grayscale-[20%] sepia-[30%]"
+            />
+          </div>
+        )}
+
+        {/* right: text */}
+        <div className="ml-4 flex flex-col justify-center text-[#e6ddc5]">
+          <p className="text-sm sm:text-base font-serif italic text-[#d4af37]/80 tracking-widest uppercase mb-1">
+            {commands(quest.route)}
+          </p>
+          <p className="text-xl sm:text-2xl font-serif font-bold tracking-wide drop-shadow-md">
+            {quest.name}
+          </p>
+          <p className="mt-2 text-sm sm:text-base text-[#b3aa99] leading-relaxed line-clamp-3">
+            {quest.description}
+          </p>
+          {quest.location && (
+            <p className="mt-3 text-xs sm:text-sm text-[#8c8273]">
+              <span className="font-semibold text-[#d4af37]/60">Location Hint: </span>
+              {quest.location}
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* The checkmark overlay */}
+      {quest.completed && (
+        <div className="pointer-events-none absolute -top-4 right-0 sm:-right-4 w-20 h-20 sm:w-24 sm:h-24 z-20 animate-stamp drop-shadow-[0_5px_15px_rgba(0,0,0,0.7)] opacity-0">
+          <Image
+            src="/quest-complete.png"
+            alt="Quest completed"
+            fill
+            className="object-contain"
+          />
+        </div>
+      )}
+    </div>
+  );
+}
