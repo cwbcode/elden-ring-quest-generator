@@ -25,12 +25,15 @@ export type EldenRingListResponseItem = {
 }
 
 export type IdListItem = EldenRingListResponseItem & {
-  questId: number;
+  questId: string | number;
   route: Route;
 }
 
 export type QuestLogItem = IdListItem & {
-  completed: boolean; 
+  completed: boolean;
+  unobtainable?: boolean;
+  isJourneyMarker?: boolean;
+  inLog?: boolean;
 }
 
 export type EldenRingListResponse = {

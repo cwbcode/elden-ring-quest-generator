@@ -24,6 +24,7 @@ export default function ClientGate({ questList }: ClientGateProps) {
   const [isMounted, setIsMounted] = useState(false);
   const [questLog, setQuestLog] = useState<Array<QuestLogItem>>([]);
   const [questListState, setQuestListState] = useState<Array<IdListItem>>([]);
+  const [unobtainablePool, setUnobtainablePool] = useState<Array<IdListItem>>([]);
   const [selectedFilter, setSelectedFilter] = useState<Route | 'any'>('any');
 
   useEffect(() => {
@@ -32,16 +33,23 @@ export default function ClientGate({ questList }: ClientGateProps) {
     try {
       const savedLogRaw = localStorage.getItem("questLog");
       const savedListRaw = localStorage.getItem("questList");
+      const savedUnobsRaw = localStorage.getItem("unobsPool");
 
       if (savedLogRaw && savedListRaw) {
         const savedLog = JSON.parse(savedLogRaw);
         const savedList = JSON.parse(savedListRaw);
+        const savedUnobs = savedUnobsRaw ? JSON.parse(savedUnobsRaw) : [];
 
         if (Array.isArray(savedLog) && Array.isArray(savedList) && savedLog.length > 0) {
 
           setQuestLog(savedLog);
 
           setQuestListState(savedList);
+
+          if (Array.isArray(savedUnobs)) {
+            setUnobtainablePool(savedUnobs);
+          }
+
           loadedFromStorage = true;
         }
       }
@@ -63,14 +71,91 @@ export default function ClientGate({ questList }: ClientGateProps) {
     if (!isMounted) return;
     localStorage.setItem("questLog", JSON.stringify(questLog));
     localStorage.setItem("questList", JSON.stringify(questListState));
-  }, [questLog, questListState, isMounted]);
+    localStorage.setItem("unobsPool", JSON.stringify(unobtainablePool));
+  }, [questLog, questListState, unobtainablePool, isMounted]);
 
 
 
-  const completeQuest = (questId: number) => {
-    // We need to avoid doing side effects or mutations inside state updater functions,
-    // especially because React can call them multiple times in StrictMode or concurrent rendering.
+  const markUnobtainable = (questId: string | number) => {
+    setQuestLog(prevLog => {
+      const idx = prevLog.findIndex(q => q.questId === questId);
+      if (idx === -1) return prevLog;
 
+      const next = [...prevLog];
+      next[idx] = { ...next[idx], unobtainable: true };
+
+      const unobsQuest: IdListItem = {
+        id: next[idx].id,
+        name: next[idx].name,
+        image: next[idx].image,
+        description: next[idx].description,
+        location: next[idx].location,
+        route: next[idx].route,
+        questId: next[idx].questId
+      };
+
+      setUnobtainablePool(prev => [...prev, unobsQuest]);
+
+      // If everything is completed, unobtainable, or safely in the log, draw a new quest
+      if (next.every(q => q.completed || q.unobtainable || q.inLog)) {
+        const availableQuests = selectedFilter === 'any'
+          ? questListState
+          : questListState.filter(q => q.route === selectedFilter);
+
+        if (availableQuests.length > 0) {
+          const questIndex = Math.floor(Math.random() * availableQuests.length);
+          const newQuest = availableQuests[questIndex];
+          next.push({ ...newQuest, completed: false });
+          setQuestListState(prevList => prevList.filter(q => q.questId !== newQuest.questId));
+        }
+      }
+
+      return next;
+    });
+  };
+
+  const startNewJourney = () => {
+    setQuestLog(prevLog => {
+      const next = [...prevLog];
+      next.push({
+        id: "ng-plus-marker",
+        questId: "nx_" + Date.now(),
+        name: "A New Journey begins...",
+        description: "",
+        image: "",
+        route: "locations",
+        completed: true,
+        isJourneyMarker: true
+      });
+
+      const recycledQuests = unobtainablePool.map((q, i) => ({
+        ...q,
+        questId: q.questId + "_" + Date.now() + "_" + i
+      }));
+
+      setQuestListState(prevList => {
+        const newList = [...prevList, ...recycledQuests];
+
+        const availableQuests = selectedFilter === 'any'
+          ? newList
+          : newList.filter(q => q.route === selectedFilter);
+
+        if (availableQuests.length > 0) {
+          // Add a minor timeout so the state setter batching doesn't collide
+          const questIndex = Math.floor(Math.random() * availableQuests.length);
+          const newQuest = availableQuests[questIndex];
+          next.push({ ...newQuest, completed: false });
+          return newList.filter(q => q.questId !== newQuest.questId);
+        }
+        return newList;
+      });
+
+      setUnobtainablePool([]);
+      return next;
+    });
+  };
+
+  const completeQuest = (questId: string | number) => {
     setQuestLog(prevLog => {
       const idx = prevLog.findIndex(q => q.questId === questId);
       if (idx === -1) return prevLog;
@@ -79,8 +164,8 @@ export default function ClientGate({ questList }: ClientGateProps) {
       const next = [...prevLog];
       next[idx] = { ...next[idx], completed: true };
 
-      // Check if everything is completed after this update
-      if (next.length > 0 && next.every(q => q.completed)) {
+      // Check if everything is completed after this update (ignoring logged quests)
+      if (next.length > 0 && next.every(q => q.completed || q.unobtainable || q.inLog)) {
 
         // Filter the available quests based on the user's dropdown selection
         const availableQuests = selectedFilter === 'any'
@@ -104,6 +189,30 @@ export default function ClientGate({ questList }: ClientGateProps) {
     });
   };
 
+  const addToLog = (questId: string | number) => {
+    setQuestLog(prevLog => {
+      const idx = prevLog.findIndex(q => q.questId === questId);
+      if (idx === -1) return prevLog;
+
+      const next = [...prevLog];
+      next[idx] = { ...next[idx], inLog: true };
+
+      // Immediately draw a new quest
+      const availableQuests = selectedFilter === 'any'
+        ? questListState
+        : questListState.filter(q => q.route === selectedFilter);
+
+      if (availableQuests.length > 0) {
+        const questIndex = Math.floor(Math.random() * availableQuests.length);
+        const newQuest = availableQuests[questIndex];
+        next.push({ ...newQuest, completed: false });
+        setQuestListState(prevList => prevList.filter(q => q.questId !== newQuest.questId));
+      }
+
+      return next;
+    });
+  };
+
   if (!isMounted) {
     return null;
   }
@@ -112,6 +221,9 @@ export default function ClientGate({ questList }: ClientGateProps) {
   const availableQuestsForFilter = selectedFilter === 'any'
     ? questListState
     : questListState.filter(q => q.route === selectedFilter);
+
+  const logQuests = questLog.filter(q => q.inLog && !q.completed && !q.unobtainable);
+  const logCount = logQuests.length;
 
   return (
     <div className="flex flex-col items-center w-full">
@@ -152,11 +264,16 @@ export default function ClientGate({ questList }: ClientGateProps) {
 
         <div className="flex flex-col gap-12 w-full max-w-3xl z-10">
           {questLog.map(quest => (
-            <ListCard key={quest.questId} quest={quest} completeQuest={completeQuest} />
+            <ListCard
+              key={quest.questId}
+              quest={quest}
+              completeQuest={completeQuest}
+              addToLog={logCount < 5 ? addToLog : undefined}
+            />
           ))}
 
           {/* Empty State when no quests remain for the selected filter and the log is empty/completed */}
-          {availableQuestsForFilter.length === 0 && (questLog.length === 0 || questLog.every(q => q.completed)) && (
+          {availableQuestsForFilter.length === 0 && (questLog.length === 0 || questLog.every(q => q.completed || q.unobtainable)) && (
             <div className="mt-8 flex justify-center w-full">
               <div className="bg-[#1f1b14] block max-w-sm p-8 border border-[#d4af37]/40 rounded-xl shadow-[0_0_15px_rgba(212,175,55,0.1)] hover:bg-[#2a2418] transition-colors relative pl-12 sm:pl-16">
                 {/* Optional ending node on the empty state box */}
@@ -174,6 +291,39 @@ export default function ClientGate({ questList }: ClientGateProps) {
           )}
         </div>
       </div>
+
+      {unobtainablePool.length > 0 && (
+        <button
+          onClick={startNewJourney}
+          className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-50 px-6 py-3 bg-[#110f0a]/90 backdrop-blur-sm border border-[#d4af37]/40 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:bg-[#1a1814] hover:border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all"
+        >
+          New Game+
+        </button>
+      )}
+
+      {/* Quest Log Sidebar */}
+      {logQuests.length > 0 && (
+        <div className="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-50">
+          {logQuests.slice(0, 5).map(q => (
+            <button
+              key={q.questId}
+              onClick={() => document.getElementById(`quest-${q.questId}`)?.scrollIntoView({ behavior: 'smooth' })}
+              className="group relative w-12 h-12 rounded bg-[#1a1814] border border-[#d4af37]/40 overflow-hidden shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:border-[#d4af37] hover:scale-110 transition-all flex items-center justify-center cursor-pointer"
+            >
+              {q.image ? (
+                <img src={q.image} alt={q.name} className="w-full h-full object-cover grayscale-[20%] sepia-[30%]" />
+              ) : (
+                <span className="text-[#d4af37] font-serif text-xl font-bold">{q.name.charAt(0)}</span>
+              )}
+
+              {/* Tooltip */}
+              <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1 bg-[#110f0a]/95 border border-[#d4af37]/40 text-[#d4af37] text-sm font-serif whitespace-nowrap rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity">
+                {q.name}
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

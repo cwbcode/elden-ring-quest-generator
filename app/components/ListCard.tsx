@@ -13,14 +13,15 @@ const commands = (route: Route): string => {
 }
 
 type ListCardProps = {
-  quest: IdListItem & { completed: boolean };
-  completeQuest: (questId: number) => void;
+  quest: IdListItem & { completed: boolean; inLog?: boolean; unobtainable?: boolean };
+  completeQuest: (questId: string | number) => void;
+  addToLog?: (questId: string | number) => void;
 };
 
 
-export default function ListCard({ quest, completeQuest }: ListCardProps) {
+export default function ListCard({ quest, completeQuest, addToLog }: ListCardProps) {
   return (
-    <div className="relative pl-12 sm:pl-16 w-full max-w-2xl mx-auto group">
+    <div id={`quest-${quest.questId}`} className="relative pl-12 sm:pl-16 w-full max-w-2xl mx-auto group">
       {/* 
         The node on the quest line. 
         It sits to the left, on top of the vertical line rendered by the parent.
@@ -33,7 +34,7 @@ export default function ListCard({ quest, completeQuest }: ListCardProps) {
       {/* The actual card */}
       <div
         className={`
-          relative flex w-full rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] p-4 sm:p-6
+          relative flex w-full rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] px-4 pb-4 pt-10 sm:px-6 sm:pb-6 sm:pt-12
           shadow-[inset_0_1px_1px_rgba(212,175,55,0.1),0_4px_20px_rgba(0,0,0,0.5)]
           transition-all duration-200 
           ${!quest.completed ? 'hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)]' : 'opacity-80'}
@@ -41,7 +42,7 @@ export default function ListCard({ quest, completeQuest }: ListCardProps) {
       >
         {/* left: image */}
         {quest.image && (
-          <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 overflow-hidden rounded-lg border border-[#d4af37]/20 shadow-inner">
+          <div className="w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0 overflow-hidden rounded-lg border border-[#d4af37]/20 shadow-inner relative group/image">
             <Image
               src={quest.image}
               alt={quest.name}
@@ -50,6 +51,17 @@ export default function ListCard({ quest, completeQuest }: ListCardProps) {
               className="h-full w-full object-cover grayscale-[20%] sepia-[30%]"
             />
           </div>
+        )}
+
+        {/* Add to Quest Log Button */}
+        {!quest.completed && !quest.inLog && !quest.unobtainable && addToLog && (
+          <button
+            onClick={() => addToLog(quest.questId)}
+            className="absolute top-0 left-0 z-20 px-4 py-1 bg-[#1a1814] border-r border-b border-[#d4af37]/50 text-[#d4af37] font-serif tracking-widest uppercase text-[10px] sm:text-xs rounded-tl-xl rounded-br-lg shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:bg-[#2a2418] border-t-0 border-l-0 hover:border-[#d4af37] hover:shadow-[0_0_15px_rgba(212,175,55,0.3)] transition-all active:scale-95"
+            title="Add to Quest Log"
+          >
+            Add to Quest Log
+          </button>
         )}
 
         {/* right: text */}
