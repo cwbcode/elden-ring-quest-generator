@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import ListCard from "./ListCard";
+import ProgressBar from "./ProgressBar";
 import { IdListItem, QuestLogItem, routes, Route } from "../types";
 
 type ClientGateProps = {
@@ -227,6 +228,11 @@ export default function ClientGate({ questList }: ClientGateProps) {
 
   return (
     <div className="flex flex-col items-center w-full">
+      <ProgressBar
+        questListState={questListState}
+        questLog={questLog}
+        unobtainablePool={unobtainablePool}
+      />
       {/* Filter UI */}
       <div className="w-full max-w-sm mb-6 flex flex-col items-center sm:items-start z-20">
         <label htmlFor="quest-filter" className="text-[#d4af37]/80 text-sm font-serif italic mb-2 tracking-wide uppercase">
