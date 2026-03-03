@@ -13,13 +13,24 @@ const commands = (route: Route): string => {
 }
 
 type ListCardProps = {
-  quest: IdListItem & { completed: boolean; inLog?: boolean; unobtainable?: boolean };
+  quest: IdListItem & { completed: boolean; inLog?: boolean; unobtainable?: boolean; isJourneyMarker?: boolean };
   completeQuest: (questId: string | number) => void;
   addToLog?: (questId: string | number) => void;
+  markUnobtainable?: (questId: string | number) => void;
 };
 
 
-export default function ListCard({ quest, completeQuest, addToLog }: ListCardProps) {
+export default function ListCard({ quest, completeQuest, addToLog, markUnobtainable }: ListCardProps) {
+  if (quest.isJourneyMarker) {
+    return (
+      <div className="w-full flex justify-center my-8 z-10 relative">
+        <h2 className="text-2xl sm:text-3xl font-serif text-[#d4af37] tracking-widest uppercase drop-shadow-[0_0_10px_rgba(212,175,55,0.5)]">
+          {quest.name}
+        </h2>
+      </div>
+    );
+  }
+
   return (
     <div id={`quest-${quest.questId}`} className="relative pl-12 sm:pl-16 w-full max-w-2xl mx-auto group">
       {/* 
@@ -37,7 +48,9 @@ export default function ListCard({ quest, completeQuest, addToLog }: ListCardPro
           relative flex w-full rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] px-4 pb-4 pt-10 sm:px-6 sm:pb-6 sm:pt-12
           shadow-[inset_0_1px_1px_rgba(212,175,55,0.1),0_4px_20px_rgba(0,0,0,0.5)]
           transition-all duration-200 
-          ${!quest.completed ? 'hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)]' : 'opacity-80'}
+          ${!quest.completed && !quest.unobtainable ? 'hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)]' : ''}
+          ${quest.completed ? 'opacity-80' : ''}
+          ${quest.unobtainable ? 'grayscale opacity-50 brightness-75' : ''}
         `}
       >
         {/* left: image */}
@@ -87,8 +100,18 @@ export default function ListCard({ quest, completeQuest, addToLog }: ListCardPro
             </p>
           )}
 
-          {!quest.completed && (
-            <div className="mt-5 flex justify-end w-full">
+          {!quest.completed && !quest.unobtainable && (
+            <div className="mt-5 flex justify-between items-end w-full">
+              {markUnobtainable ? (
+                <button
+                  onClick={() => markUnobtainable(quest.questId)}
+                  className="px-6 py-2 bg-[#1a1814] border border-[#7a7465]/50 text-[#7a7465] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:bg-[#2a2418] hover:border-[#d4af37] hover:text-[#d4af37] hover:shadow-[0_0_15px_rgba(212,175,55,0.3)] transition-all active:scale-95"
+                >
+                  Unobtainable
+                </button>
+              ) : (
+                <div />
+              )}
               <button
                 onClick={() => {
                   completeQuest(quest.questId);

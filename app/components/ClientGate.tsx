@@ -118,16 +118,29 @@ export default function ClientGate({ questList }: ClientGateProps) {
   const startNewJourney = () => {
     setQuestLog(prevLog => {
       const next = [...prevLog];
-      next.push({
+
+      // Find the "active" quest (the one not completed and not mostly unobtainable/inLog)
+      // Usually it is the last item in the array, but we can search from the end.
+      const activeIdx = next.findLastIndex(q => !q.completed && !q.unobtainable);
+
+      const marker = {
         id: "ng-plus-marker",
         questId: "nx_" + Date.now(),
         name: "A New Journey begins...",
         description: "",
         image: "",
-        route: "locations",
-        completed: true,
+        route: "locations", // Fallback to satisfy Route type
+        completed: true, // Mark completed so it doesn't block progression logic
         isJourneyMarker: true
-      });
+      } as QuestLogItem;
+
+      if (activeIdx !== -1) {
+        // Insert the marker just BEFORE the active uncompleted quest
+        next.splice(activeIdx, 0, marker);
+      } else {
+        // If there's no active quest (e.g., everything's done), just push to the end
+        next.push(marker);
+      }
 
       const recycledQuests = unobtainablePool.map((q, i) => ({
         ...q,
@@ -135,20 +148,9 @@ export default function ClientGate({ questList }: ClientGateProps) {
       }));
 
       setQuestListState(prevList => {
-        const newList = [...prevList, ...recycledQuests];
-
-        const availableQuests = selectedFilter === 'any'
-          ? newList
-          : newList.filter(q => q.route === selectedFilter);
-
-        if (availableQuests.length > 0) {
-          // Add a minor timeout so the state setter batching doesn't collide
-          const questIndex = Math.floor(Math.random() * availableQuests.length);
-          const newQuest = availableQuests[questIndex];
-          next.push({ ...newQuest, completed: false });
-          return newList.filter(q => q.questId !== newQuest.questId);
-        }
-        return newList;
+        // Just put the recycled quests back into the pool. 
+        // We do *not* draw a new quest here.
+        return [...prevList, ...recycledQuests];
       });
 
       setUnobtainablePool([]);
@@ -275,6 +277,7 @@ export default function ClientGate({ questList }: ClientGateProps) {
               quest={quest}
               completeQuest={completeQuest}
               addToLog={logCount < 5 ? addToLog : undefined}
+              markUnobtainable={markUnobtainable}
             />
           ))}
 
@@ -298,14 +301,12 @@ export default function ClientGate({ questList }: ClientGateProps) {
         </div>
       </div>
 
-      {unobtainablePool.length > 0 && (
-        <button
-          onClick={startNewJourney}
-          className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-50 px-6 py-3 bg-[#110f0a]/90 backdrop-blur-sm border border-[#d4af37]/40 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:bg-[#1a1814] hover:border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all"
-        >
-          New Game+
-        </button>
-      )}
+      <button
+        onClick={startNewJourney}
+        className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-[60] px-6 py-3 bg-[#110f0a]/90 backdrop-blur-sm border border-[#d4af37]/40 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:bg-[#1a1814] hover:border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all"
+      >
+        New Game+
+      </button>
 
       {/* Quest Log Sidebar */}
       {logQuests.length > 0 && (
