@@ -8,6 +8,8 @@ import { IdListItem, QuestLogItem, routes, Route } from "../types";
 
 type ClientGateProps = {
   questList: Array<IdListItem>;
+  storagePrefix?: string;
+  onNewJourney?: () => void;
 };
 
 function pickFirstQuest(list: Array<IdListItem>) {
@@ -21,7 +23,7 @@ function pickFirstQuest(list: Array<IdListItem>) {
   };
 }
 
-export default function ClientGate({ questList }: ClientGateProps) {
+export default function ClientGate({ questList, storagePrefix = "", onNewJourney }: ClientGateProps) {
   const [isMounted, setIsMounted] = useState(false);
   const [questLog, setQuestLog] = useState<Array<QuestLogItem>>([]);
   const [questListState, setQuestListState] = useState<Array<IdListItem>>([]);
@@ -31,10 +33,13 @@ export default function ClientGate({ questList }: ClientGateProps) {
   useEffect(() => {
     setIsMounted(true);
     let loadedFromStorage = false;
+    
+    const getKey = (key: string) => storagePrefix ? `${storagePrefix}.${key}` : key;
+    
     try {
-      const savedLogRaw = localStorage.getItem("questLog");
-      const savedListRaw = localStorage.getItem("questList");
-      const savedUnobsRaw = localStorage.getItem("unobsPool");
+      const savedLogRaw = localStorage.getItem(getKey("questLog"));
+      const savedListRaw = localStorage.getItem(getKey("questList"));
+      const savedUnobsRaw = localStorage.getItem(getKey("unobsPool"));
 
       if (savedLogRaw && savedListRaw) {
         const savedLog = JSON.parse(savedLogRaw);
@@ -70,10 +75,12 @@ export default function ClientGate({ questList }: ClientGateProps) {
   // Persist whenever state changes.
   useEffect(() => {
     if (!isMounted) return;
-    localStorage.setItem("questLog", JSON.stringify(questLog));
-    localStorage.setItem("questList", JSON.stringify(questListState));
-    localStorage.setItem("unobsPool", JSON.stringify(unobtainablePool));
-  }, [questLog, questListState, unobtainablePool, isMounted]);
+    const getKey = (key: string) => storagePrefix ? `${storagePrefix}.${key}` : key;
+    
+    localStorage.setItem(getKey("questLog"), JSON.stringify(questLog));
+    localStorage.setItem(getKey("questList"), JSON.stringify(questListState));
+    localStorage.setItem(getKey("unobsPool"), JSON.stringify(unobtainablePool));
+  }, [questLog, questListState, unobtainablePool, isMounted, storagePrefix]);
 
 
 
@@ -154,6 +161,11 @@ export default function ClientGate({ questList }: ClientGateProps) {
       });
 
       setUnobtainablePool([]);
+      
+      if (onNewJourney) {
+        onNewJourney();
+      }
+
       return next;
     });
   };

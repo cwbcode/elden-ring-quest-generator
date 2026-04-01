@@ -1,4 +1,5 @@
-import ClientGate from "./components/ClientGate";
+import TabsContainer from "./components/TabsContainer";
+import { scrapeSoteAPI } from "./sote-api";
 import { IdListItem, EldenRingListResponse, routes } from "./types";
 
 const api = 'https://eldenring.fanapis.com/api'
@@ -37,6 +38,7 @@ const scrapeAPI = async () => {
 
 export default async function Home() {
   const questList: Array<IdListItem> = await scrapeAPI();
+  const soteList: Array<IdListItem> = await scrapeSoteAPI();
 
   return (
     <div className="flex min-h-screen justify-center bg-[#0a0a09] font-sans text-[#e6ddc5]">
@@ -57,7 +59,7 @@ export default async function Home() {
         </div>
 
         <div className="w-full relative">
-          <ClientGate questList={questList} />
+          <TabsContainer baseList={questList} soteList={soteList} />
         </div>
       </main>
     </div>
