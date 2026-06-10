@@ -1,6 +1,6 @@
 {
   "source": "https://eldenring.wiki.fextralife.com/Shadow+of+the+Erdtree",
-  "timestamp": "2026-06-10T08:42:53.689Z",
+  "timestamp": "2026-06-10T09:06:43.765Z",
   "routes": [
     "armors",
     "ashes",
@@ -17,13 +17,13 @@
     "weapons"
   ],
   "counts": {
-    "armors": 181,
+    "armors": 175,
     "ashes": 25,
     "bosses": 37,
     "creatures": 0,
     "incantations": 28,
     "items": 69,
-    "locations": 0,
+    "locations": 26,
     "npcs": 14,
     "shields": 8,
     "sorceries": 14,

@@ -29,7 +29,7 @@ function mapFextraSectionToRoute(title: string): Route | null {
   
   if (t.includes('bosses')) return 'bosses';
   if (t.includes('npcs')) return 'npcs';
-  if (t.includes('locations')) return 'locations';
+  if (t.includes('locations') || t.includes('dungeons') || t.includes('catacombs') || t.includes('caves') || t.includes('ruins') || t.includes('graves') || t.includes('gaols') || t.includes('villages') || t.includes('shacks') || t.includes('rises') || t.includes('forges')) return 'locations';
   if (t.includes('talismans')) return 'talismans';
   if (t.includes('spirit ashes') || t.includes('revered spirit ash')) return 'spirits';
   if (t.includes('ashes of war')) return 'ashes';

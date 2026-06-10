@@ -33,7 +33,7 @@ export default function TabsContainer({ baseList, soteList }: { baseList: IdList
       </div>
 
       {activeTab === 'base' && <ClientGate key="base" storagePrefix="" questList={baseList} onNewJourney={onNewJourney} />}
-      {activeTab === 'sote' && <ClientGate key="sote" storagePrefix="sote" questList={soteList} onNewJourney={onNewJourney} />}
+      {activeTab === 'sote' && <ClientGate key="sote" storagePrefix="sote_v2" questList={soteList} onNewJourney={onNewJourney} />}
     </div>
   );
 }

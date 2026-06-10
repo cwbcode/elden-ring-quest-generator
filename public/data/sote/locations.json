@@ -1,1 +1,236 @@
-[]
+[
+  {
+    "id": "sote_fextra_20335",
+    "name": "Abandoned Ailing Village",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/abandoned-ailing-village-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A dilapidated village found north of Ellac bridge, is now infested with Man-flies.",
+    "route": "locations",
+    "questId": "sote_20335",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20338",
+    "name": "Artist's Shack (Gravesite Plain)",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/artists-shack-gravesite-plains-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A small ruined shack overlooking the Gravesite Plain.",
+    "route": "locations",
+    "questId": "sote_20338",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20337",
+    "name": "Belurat Gaol",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/belurat-jail-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "An underground prison located deep within the Belurat Tower.",
+    "route": "locations",
+    "questId": "sote_20337",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20336",
+    "name": "Belurat Tower Settlement",
+    "image": "",
+    "description": "Belurat Tower Settlement is a Legacy Dungeon in Elden Ring. It is exclusive to the Shadow of the Erdtree DLC. The tower was said to be a place where practitioners and experts would practice the ancient form of hexing arts. It was also a place where individuals who have caught the \"fly sickness\" have succumbed to death or the disease that transformed them into hostile flesh-eating creatures. And since unimaginable actions and magic were practiced, those who have met their demise now roam the tower as lost Revered Spirits, waiting to kill anything or anyone who explores the area. [See Shadow of the Erdtree Map]",
+    "route": "locations",
+    "questId": "sote_20336",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20339",
+    "name": "Castle Ensis",
+    "image": "",
+    "description": "Castle Ensis is a Minor Legacy Dungeon in Elden Ring. Castle Ensis is a dungeon exclusive to the Shadow of the Erdtree DLC. Castle Ensis can be located north-northeast of the Three Path Cross checkpoint (site of grace). Castle Ensis is a small castle where players can encounter scholars of magic, deadly hounds, noblemen capable of using magical attacks, and soldiers of Messmer.",
+    "route": "locations",
+    "questId": "sote_20339",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20341",
+    "name": "Church of Benediction",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/church-of-benediction-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A crumbled church in the southwest of Gravesite Plain.",
+    "route": "locations",
+    "questId": "sote_20341",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20342",
+    "name": "Church of Consolation",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/church-of-consolation-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A crumbled church lies at the edge of Gravesite Plain.",
+    "route": "locations",
+    "questId": "sote_20342",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20343",
+    "name": "Dragon's Pit",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragons-pit-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A large cave system found in Gravesite Plain.",
+    "route": "locations",
+    "questId": "sote_20343",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20340",
+    "name": "Elder's Hovel",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elders-hovel-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A ruined shack whose resident calls out to the Dragon in the distance.",
+    "route": "locations",
+    "questId": "sote_20340",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20344",
+    "name": "Ellac Greatbridge",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ellac-greatbridge-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A great bridge crossing the Ellac river.",
+    "route": "locations",
+    "questId": "sote_20344",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20349",
+    "name": "Fog Rift Fort",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fog-rift-fort-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A large fort on the west of Castle Ensis.",
+    "route": "locations",
+    "questId": "sote_20349",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20348",
+    "name": "Northern Nameless Mausoleum",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/northern-nameless-mausoleum-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A small Mausoleum lies on a hill on northwest of the Castle Ensis.",
+    "route": "locations",
+    "questId": "sote_20348",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20345",
+    "name": "Prospect Town",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/prospect-town-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "Remnants of what was once a small town.",
+    "route": "locations",
+    "questId": "sote_20345",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20346",
+    "name": "Rivermouth Cave",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rivermouth-cave-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "The Rivermouth Cave is full of twists and turns as you head deeper into it. What creatures lie beneath this cave, undisturbed?",
+    "route": "locations",
+    "questId": "sote_20346",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20347",
+    "name": "Ruined Forge Lava Intake",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ruined-forge-lava-intake-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "Underground ruins found east of Gravesite Plain, infested with foes.",
+    "route": "locations",
+    "questId": "sote_20347",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20354",
+    "name": "Run-Down Traveler's Rest",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/run-down-travelers-rest-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A ruined house found under the Ellac Bridge.",
+    "route": "locations",
+    "questId": "sote_20354",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20351",
+    "name": "Scorched Ruins",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scorched-ruins-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "Once a magnificent sight to behold, now just ruins.",
+    "route": "locations",
+    "questId": "sote_20351",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20353",
+    "name": "Suppressing Pillar",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/supressing-pillar-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A towering pillar situated east of the Shadow Realm.",
+    "route": "locations",
+    "questId": "sote_20353",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20352",
+    "name": "Western Nameless Mausoleum",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/western-nameless-mausoleum-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A small Mausoleum, at the western edge of Gravesite Plain.",
+    "route": "locations",
+    "questId": "sote_20352",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20350",
+    "name": "Ancient Ruins of Rauh",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ancient-ruins-of-rauh.png",
+    "description": "Ancient Ruins of Rauh (Rauh Ruins) is a Location in Elden Ring. The Ancient Ruins of Rauh region are added with the Shadow of the Erdtree DLC, located north of Gravesite Plain, west of Scadu Atlus. [See Shadow of the Erdtree Map] It can only be accessed to its entirely by traveling through the Shadow Keep.",
+    "route": "locations",
+    "questId": "sote_20350",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20357",
+    "name": "Finger Ruins of Rhia",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/finger-ruins-of-rhia-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "Large stone fingers erect at the basin in the Southern Shore region.",
+    "route": "locations",
+    "questId": "sote_20357",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20359",
+    "name": "Belurat Tower Settlement",
+    "image": "",
+    "description": "Belurat Tower Settlement is a Legacy Dungeon in Elden Ring. It is exclusive to the Shadow of the Erdtree DLC. The tower was said to be a place where practitioners and experts would practice the ancient form of hexing arts. It was also a place where individuals who have caught the \"fly sickness\" have succumbed to death or the disease that transformed them into hostile flesh-eating creatures. And since unimaginable actions and magic were practiced, those who have met their demise now roam the tower as lost Revered Spirits, waiting to kill anything or anyone who explores the area. [See Shadow of the Erdtree Map]",
+    "route": "locations",
+    "questId": "sote_20359",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20358",
+    "name": "Shadow Keep",
+    "image": "",
+    "description": "Shadow Keep is a Legacy Dungeon in Elden Ring. The Shadow Keep is a legacy dungeon exclusive to the Shadow of the Erdtree DLC, it accommodates the main army of Messmer the Impaler. The Shadow Keep is located at the center or the heart of the Scadu Altus region and has multiple entrances and exits, considering it to be a non-linear dungeon where adventurers will encounter many enemies such as Messmer Soldiers, Fire Knights, Giant Crabs, Giant Bats, Shadow Militia, Black Knights, and devastating creatures. [See Shadow of the Erdtree Map]",
+    "route": "locations",
+    "questId": "sote_20358",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20356",
+    "name": "Enir-Ilim",
+    "image": "",
+    "description": "Enir-Ilim is a Legacy Dungeon in Elden Ring. Enir-Ilim is a dungeon exclusive to the Shadow of the Erdtree DLC. You can gain access to an area containing a sealing tree by defeating Romina, Saint of the Bud in the Church of the Bud. You can then burn the sealing tree by using Messmer's Kindling, which you can obtain by defeating Messmer the Impaler. Enir-Ilim will reveal its true form after burning the sealing tree, teleporting you inside of it.",
+    "route": "locations",
+    "questId": "sote_20356",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20355",
+    "name": "Fort of Reprimand",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fort-of-reprimand-sote-location-elden-ring-wiki-guide-300px.jpg",
+    "description": "A large fort in Scadu Altus, overlooking the cliff.",
+    "route": "locations",
+    "questId": "sote_20355",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20360",
+    "name": "Midra's Manse",
+    "image": "",
+    "description": "Midra's Manse is a Minor Legacy Dungeon in Elden Ring. Midra's Manse is a dungeon exclusive to the Shadow of the Erdtree DLC. It is located in the Abyssal Woods region, southeast of the Dragon's Pit Terminus Site of Grace [See Elden Ring Map].",
+    "route": "locations",
+    "questId": "sote_20360",
+    "location": "Location unknown."
+  }
+]

@@ -1,128 +1,128 @@
 [
   {
-    "id": "sote_fextra_20366",
+    "id": "sote_fextra_20385",
     "name": "Blades of Stone",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blades_of_stone_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Blades of Stone is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Blades of Stone makes blades of rock erupt from the earth below targets.",
     "route": "sorceries",
-    "questId": "sote_20366",
+    "questId": "sote_20385",
     "location": "Where to find Blades of Stone: \n Trade Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold."
   },
   {
-    "id": "sote_fextra_20365",
+    "id": "sote_fextra_20387",
     "name": "Cherishing Fingers",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/cherishing_fingers_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Cherishing Fingers is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Cherishing Fingers conjures hefty fingers covering the caster that wards off any projectiles.",
     "route": "sorceries",
-    "questId": "sote_20365",
+    "questId": "sote_20387",
     "location": "Where to find Cherishing Fingers: \n Cathedral of Manus Metyr: Found in the west graveyard after fully completing Count Ymir's questline. [See Shadow of the Erdtree Map]"
   },
   {
-    "id": "sote_fextra_20363",
+    "id": "sote_fextra_20384",
     "name": "Fleeting Microcosm",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fleeting_microcosm_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Fleeting Microcosm is a Sorcery in Elden Ring. It is a brand-new Sorcery in the Shadow of the Erdtree DLC. Fleeting Microcosm spell is a finger sorcery of Count Ymir, that creates the image of a microcosm at the feet of the target.",
     "route": "sorceries",
-    "questId": "sote_20363",
+    "questId": "sote_20384",
     "location": "Where to find Fleeting Microcosm: \n Can be bought from Count Ymir at the Cathedral of Manus Metyr for  20,000 Runes [Map Link] \n   \n   Requires having completed the second step of his questline. \n   Can also be purchased from the Twin Maiden Husks after giving them Ymir's Bell Bearing."
   },
   {
-    "id": "sote_fextra_20364",
+    "id": "sote_fextra_20383",
     "name": "Glintblade Trio",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintblade_trio_2_sorcery_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Glintblade Trio is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Glintblade Trio creates three sigils that shoot enemy-seeking glintblades after a brief delay.",
     "route": "sorceries",
-    "questId": "sote_20364",
+    "questId": "sote_20383",
     "location": "Where to find Glintblade Trio: \n Castle Ensis: After progressing through the chapel with the Lazuli Sorcerers, go through the iron gate and fall off a ledge directly to the left. Go around the cliff and climb up the ladders to the rooftop of the chapel, be wary of a Page enemy to the left when you climb the second ladder. Head northwest and jump down onto a platform to access the corpse that contains the Spell. [Map Link] [Video Location]"
   },
   {
-    "id": "sote_fextra_20367",
+    "id": "sote_fextra_20386",
     "name": "Glintstone Nail",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintstone_nail_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Glintstone Nail is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Glintstone Nail flings a crumbling, magic nail towards the target.",
     "route": "sorceries",
-    "questId": "sote_20367",
+    "questId": "sote_20386",
     "location": "Where to find Glintstone Nail: \n Can be bought from Count Ymir at the Cathedral of Manus Metyr for  12,000 Runes [Map Link] \n   \n   Requires having completed the first step of his questline."
   },
   {
-    "id": "sote_fextra_20371",
+    "id": "sote_fextra_20388",
     "name": "Glintstone Nails",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintstone_nails_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Glintstone Nails is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Glintstone Nails flings multiple crumbling, magic nails towards the target",
     "route": "sorceries",
-    "questId": "sote_20371",
+    "questId": "sote_20388",
     "location": "Where to find Glintstone Nails: \n Can be bought from Count Ymir at the Cathedral of Manus Metyr for  12,000 Runes [Map Link] \n   \n   Requires having completed the first step of his questline."
   },
   {
-    "id": "sote_fextra_20368",
+    "id": "sote_fextra_20389",
     "name": "Gravitational Missile",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gravitational_missile_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Gravitational Missile is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Gravitational Missile creates a gravitational orb that pulls enemies towards it, pulsating before exploding.",
     "route": "sorceries",
-    "questId": "sote_20368",
+    "questId": "sote_20389",
     "location": "Where to find Gravitational Missile: \n Dropped by the Fallingstar Beast, who can be found in the crater in Fingerstone Hill. [Elden Ring Shadow of the Erdtree Map]"
   },
   {
-    "id": "sote_fextra_20372",
+    "id": "sote_fextra_20390",
     "name": "Impenetrable Thorns",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/impenetrable_thorns_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Impenetrable Thorns is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Impenetrable Thorns wounds the caster to unleash trails of Scadutree's impenetrable thorns from the ground.",
     "route": "sorceries",
-    "questId": "sote_20372",
+    "questId": "sote_20390",
     "location": "Where to find Impenetrable Thorns: \n Shadow Keep: From the \"Storehouse, Seventh Floor\" Site of Grace, head the center of the storeroom, after pulling the lever to rotate the center beams. Keep climbing on the beams until you can jump to a room with a Marika Statue in it and an archway leading outside. Once outside, carefully walk off the nearest ledge (you'll see a bat below). You'll find the spell on a corpse. [See Shadow of the Erdtree Map]  \n Alternatively, backtrack from the \"Dark Chamber Entrance\" Site of Grace, cross the bridge and down the steps on the right, and it will be directly below you next to the sitting bat enemy."
   },
   {
-    "id": "sote_fextra_20370",
+    "id": "sote_fextra_20392",
     "name": "Mantle of Thorns",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mantle_of_thorns_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Mantle of Thorns is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Mantle of Thorns covers the caster's body with piercing Scadutree thorns.",
     "route": "sorceries",
-    "questId": "sote_20370",
+    "questId": "sote_20392",
     "location": "Where to find Mantle of Thorns: \n Shadow Keep: In the Church District, after having drained the water. This item drops from the Lesser Ulcerated Tree Spirit enemy that emerges beneath the ground, below the large tree. Not to be confused with the other one near the chapel that drops the Iris of Occultation. [Map Link] [Video Location]"
   },
   {
-    "id": "sote_fextra_20369",
+    "id": "sote_fextra_20391",
     "name": "Mass of Putrescence",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mass_of_putrescence.png",
     "description": "Mass of Putrescence is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Mass of Putrescence shoots a putrescent mass that explodes, bathing an area with ghostflame.",
     "route": "sorceries",
-    "questId": "sote_20369",
+    "questId": "sote_20391",
     "location": "Where to find Mass of Putrescence: \n Stone Coffin Fissure: From the \"Fissure Waypoint\" Site of Grace, head northeast. Just after hopping over the little gap, drop down to the left side and make your way north where you'll find the spell on a corpse near some Putrescent Skeletons. [Map Link] [Video Link]"
   },
   {
-    "id": "sote_fextra_20376",
+    "id": "sote_fextra_20393",
     "name": "Miriam's Vanishing",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/miriams_vanishing_sorcery_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Miriam's Vanishing is a Sorcery in Elden Ring. It is a brand-new Sorcery in the Shadow of the Erdtree DLC. Miriam's Vanishing allows the caster to disappear and reappear in a nearby location determined by direction inputs.",
     "route": "sorceries",
-    "questId": "sote_20376",
+    "questId": "sote_20393",
     "location": "Where to find Miriam's Vanishing: \n Can be purchased from Count Ymir at the Cathedral of Manus Metyr for  10,000 Runes. [Map Link] \n Can be purchased from the Twin Maiden Husks at the Roundtable Hold, after giving them Ymir's Bell Bearing, for  10,000 Runes."
   },
   {
-    "id": "sote_fextra_20375",
+    "id": "sote_fextra_20396",
     "name": "Rellana's Twin Moons",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellanas_twin_moons_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Rellana's Twin Moons is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Rellana's Twin Moons creates overlapping twin moons that crash to the ground dealing massive damage.",
     "route": "sorceries",
-    "questId": "sote_20375",
+    "questId": "sote_20396",
     "location": "Where to find Rellana's Twin Moons: \n Trade Remembrance of the Twin Moon Knight with Enia at the Roundtable Hold."
   },
   {
-    "id": "sote_fextra_20373",
+    "id": "sote_fextra_20394",
     "name": "Rings of Spectral Light",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rings_of_spectral_light_sorceries_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     "description": "Rings of Spectral Light is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Rings of Spectral Light creates rings of spectral light behind the caster that fire in unison.",
     "route": "sorceries",
-    "questId": "sote_20373",
+    "questId": "sote_20394",
     "location": "Where to find Rings of Spectral Light: \n Charo's Hidden Grave: Can be obtained from a body in front of the altar with the giant Gravebird statue near several Gravebirds. [Map Link] \n   \n   From the \"Charo's Hidden Grave\" Site of Grace, head east, and when you reach a hill filled with red flowers, take the fork to the left, and head up the hill northward. You will see the giant Gravebird statue atop the hill."
   },
   {
-    "id": "sote_fextra_20374",
+    "id": "sote_fextra_20395",
     "name": "Vortex of Putrescence",
     "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/vortex_of_putrescence_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide.png",
     "description": "Vortex of Putrescence is a Sorcery in Elden Ring. It was added with the Shadow of the Erdtree DLC. Vortex of Putrescence shoots a whirl of putrescent projectiles that stain the surroundings with ghostflame.",
     "route": "sorceries",
-    "questId": "sote_20374",
+    "questId": "sote_20395",
     "location": "Where to find Vortex of Putrescence: \n Trade Remembrance of Putrescence with Enia at the Roundtable Hold."
   }
 ]
