@@ -1,0 +1,335 @@
+[
+  {
+    "id": "sote_fextra_20210",
+    "name": "Blackgaol Knight",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blackight-gaol-boss-1-elden-ring-wiki-guide.jpg",
+    "description": "Knight of the Solitary Gaol is an Enemy Boss in Elden Ring. The Knight of the Solitary Gaol switches weapons between a Greatsword and a Crossbow, and is found in the Western Nameless Mausoleum. The Knight of the Solitary Gaol drops the Greatsword of Solitude and his Solitude Set upon death. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20210",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20207",
+    "name": "Chief Bloodfiend",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/chief-bloodfiend-elden-ring-wiki-600px.jpg",
+    "description": "Chief Bloodfiend is a Great Enemy Boss in Elden Ring. Chief Bloodfiend is a large boss that is armed with a club and is found in Rivermouth Cave. This is an optional boss as players don't need to defeat it to advance in Elden Ring.",
+    "route": "bosses",
+    "questId": "sote_20207",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20208",
+    "name": "Demi-Human Swordmaster Onze",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/demi-human_swordmaster_onze.png",
+    "description": "Demi-Human Swordmaster Onze is a Great Enemy Boss in Elden Ring. Onze is a demi-human that, despite his appearance, skillfully wields a magic katana and is found at the bottom of the Belurat Gaol. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20208",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20209",
+    "name": "Divine Beast Dancing Lion",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/divine_beast_dancing_lion_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Divine beasts are messengers of the heavens, and their rage mirrors the tumult of the skies, of which storms are the pinnacle. \n   When the Impaler's army assailed the tower, the ritual of the lion dance was turned toward martial ends—its divinity, its fury, its light-footed beauty.",
+    "route": "bosses",
+    "questId": "sote_20209",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20211",
+    "name": "Ghostflame Dragon",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ghostflame-dragon.png",
+    "description": "Gravesite Plain:100,000 Dragon HeartSomber Ancient Dragon Smithing Stone",
+    "route": "bosses",
+    "questId": "sote_20211",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20213",
+    "name": "Lamenter",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lamenter.png",
+    "description": "Lamenter is a Boss in Elden Ring. Lamenter is a small but sneaky boss that uses clones as its main attacking method and is found in Lamenter's Gaol. This is an optional boss as players don't need to defeat it to advance in Elden Ring.",
+    "route": "bosses",
+    "questId": "sote_20213",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20216",
+    "name": "Rellana Twin Moon Knight",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellana_twin_moon_knight2_300px.jpg",
+    "description": "240,000Remembrance of the Twin Moon Knight",
+    "route": "bosses",
+    "questId": "sote_20216",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20214",
+    "name": "Red Bear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mr-teddy.png",
+    "description": "Red Bear is a Great Enemy Boss in Elden Ring. Red Bear is a humanoid boss who glows white and almost looks like wears a fur coat from a bear and is found in the Northern Nameless Mausoleum. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20214",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20215",
+    "name": "Black Knight Edredd",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/edreed.png",
+    "description": "Black Knight Edredd is a Field Boss in Elden Ring. Black Knight Edredd is a winged knight armed with a double-ended sword and is found in Fort of Reprimand. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20215",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20212",
+    "name": "Black Knight Garrew",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/garrew.png",
+    "description": "Black Knight Garrew is an Enemy Boss in Elden Ring. Black Knight Garrew is a big human knight that's equipped with a large mace and a large shield and is found in Fog Rift Fort. This is an optional boss as players don't need to defeat it to advance in Elden Ring.",
+    "route": "bosses",
+    "questId": "sote_20212",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20217",
+    "name": "Commander Gaius",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/commander_gaius_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Riding atop the boar he called his other half, Gaius was in fact a warrior of albinauric extraction. \n Both were as elder brothers to the lion, and both were cursed from birth. In spite of, or perhaps because of this very reason, Gaius was both Messmer's friend and the leader of his men.",
+    "route": "bosses",
+    "questId": "sote_20217",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20221",
+    "name": "Count Ymir Mother of Fingers",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/count-ymir-mother-of-fingers-boss-elden-ring-wiki-guide.jpg",
+    "description": "Truly, I desired... to be your mother...",
+    "route": "bosses",
+    "questId": "sote_20221",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20219",
+    "name": "Curseblade Labirith",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/curseblade-labirith-elden-ring-wiki-600px.jpg",
+    "description": "Curseblades appear to dance when they spin their shimmering circular blades. These ascetics, who failed to become tutelary deities, were a scourge for those who attempted to invade the hornsent homeland.",
+    "route": "bosses",
+    "questId": "sote_20219",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20218",
+    "name": "Death Knight",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death-knight-elden-ring-wiki-600px.jpg",
+    "description": "Fog Rift Catacombs:110,000  RunesDeath Knight's Twin AxesCrimson Amber Medallion +3",
+    "route": "bosses",
+    "questId": "sote_20218",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20220",
+    "name": "Dryleaf Dane (Boss)",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dryleaf.png",
+    "description": "Dryleaf Dane is a Field Boss in Elden Ring. Dryleaf Dane is originally a friendly NPC, but can trigger a boss fight after acquiring the Monk's Missive note. He can be found in Moorth Ruins. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20220",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20225",
+    "name": "Golden Hippopotamus",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/golden-hippopotamus-elden-ring-wiki-300px.jpg",
+    "description": "Shadow Keep:200,000Aspects of the Crucible: ThornsScadutree Fragment x2",
+    "route": "bosses",
+    "questId": "sote_20225",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20222",
+    "name": "Messmer the Impaler",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer_the_impaler_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Those stripped of the Grace of Gold shall all meet death. In the embrace of Messmer's flame.",
+    "route": "bosses",
+    "questId": "sote_20222",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20226",
+    "name": "Metyr Mother of Fingers",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/metyr_mother_of_fingers_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Metyr, Mother of Fingers is a Legend Boss in Elden Ring. Metyr, Mother of Fingers is a large monster that is composed of several fingers with two arms in front, and has a stomach made of smaller fingers, and is found in the Finger Ruins of Miyr. This is an optional boss as players don't need to defeat it to advance in Shadows of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20226",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20223",
+    "name": "Rakshasa",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rakshasa.png",
+    "description": "Cut down and devour. Only those who repeat the cycle without rest can truly subvert the self and become Rakshasa.",
+    "route": "bosses",
+    "questId": "sote_20223",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20224",
+    "name": "Ralva the Great Red Bear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ralva.png",
+    "description": "Ralva the Great Red Bear is a Field Boss in Elden Ring. Ralva the Great Red Bear is a ferocious boss that fights with the strength of its limbs and is found in Scadu Altus. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20224",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20230",
+    "name": "Tree Sentinel",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tree-sentinel-1-small1-min.jpg",
+    "description": "The living rampart of the Erdtree, the Tree Sentinels are the standard to which all defenders of the Erdtree aspire.",
+    "route": "bosses",
+    "questId": "sote_20230",
+    "location": "Tree Sentinels can be found in: \n Limgrave [More Info] [Map Link] \n 2x in Altus Plateau [More Info] [Map Link] \n 2x in Hinterland [More Info] [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20231",
+    "name": "Romina Saint of the Bud",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/romina_saint_of_the_bud_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Romina, Saint of the Bud is a Legend Boss in Elden Ring. She appears humanoid, though her lower half has inexplicably transformed into a centipede with a scorpion's stinger. After her church was burned during Messmer's crusade, she discovered a twisted divine element and weaved it into the Scarlet Rot, wielding the bud she cradled as a deadly poleblade in combat. She can be found in the Church of the Bud, which you can access at the end of your exploration in the Ancient Ruins of Rauh. This is not an optional boss, as players need to defeat her to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20231",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20227",
+    "name": "Rugalea the Great Red Bear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rugalea-the-great-red-bear-boss-elden-ring-wiki-guide.jpg",
+    "description": "Rugalea the Great Red Bear is a Boss in Elden Ring. Rugalea the Great Red Bear is a large red bear found in Rauh Base. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20227",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20228",
+    "name": "Dancer of Ranah",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dancer.png",
+    "description": "Dancer of Ranah is a Boss in Elden Ring Shadow of the Erdtree. Dancer of Ranah is an agile fighter with a unique attack style and is found in Southern Nameless Mausoleum in an island west from the Cerulean Coast. This is an optional boss as players don't need to defeat it to advance in Elden Ring.",
+    "route": "bosses",
+    "questId": "sote_20228",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20229",
+    "name": "Putrescent Knight",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/putrescent_knight_bosses_elden_ring_wiki_300px.jpg",
+    "description": "All tainted flesh eventually becomes putrescence, and this clump of it imbibed St. Trina's nectar, which granted it eternal rest. \n And so it was that putrescence became her knight.",
+    "route": "bosses",
+    "questId": "sote_20229",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20234",
+    "name": "Death Rite Bird",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death_rite_bird_bosses_elden_ring_wiki_guide1-min.jpg",
+    "description": "In the time when there was no Erdtree, death was burned in ghostflame. Deathbirds were the keepers of that fire.",
+    "route": "bosses",
+    "questId": "sote_20234",
+    "location": "Death Rite Birds can be found in: \n Academy Gate Town [More Info ↓] [Map Link] \n Caelid [More Info ↓] [Map Link] \n Mountaintops of the Giants [More Info ↓] [Map Link] \n Apostate Derelict [More Info ↓] [Map Link] \n Charo's Hidden Grave [More Info ↓] [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20232",
+    "name": "Demi-Human Queen Marigga",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/demi-queen.png",
+    "description": "Demi-Human Queen Marigga is a Field Boss in Elden Ring. Demi-Human Queen Marigga has the appearance of a humanoid jackal and carries a staff. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20232",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20235",
+    "name": "Ancient Dragon-Man",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragon-weeb.png",
+    "description": "Ancient Dragon-Man is a Boss in Elden Ring. Ancient Dragon-Man carries a katana and moves quickly in between attacks, and is found in Dragon's Pit, he drops the Dragon-Hunter's Great Katana once defeated. This is an optional boss as players will not need to defeat him to advance in Elden Ring.",
+    "route": "bosses",
+    "questId": "sote_20235",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20236",
+    "name": "Ancient Dragon Senessax",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/senessax.png",
+    "description": "The ancient dragons who betrayed their lord to side with a tyrant were known for wielding branching red lightning.",
+    "route": "bosses",
+    "questId": "sote_20236",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20233",
+    "name": "Bayle The Dread",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bayle_the_dread_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Bayle the Dread is a Legend Boss in Elden Ring. Bayle is the forefather of the drakes, a sworn enemy of the ancient dragons, and the target of Igon's vengeance. He is found at the summit of the Jagged Peak. This is an optional boss as players don't need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20233",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20238",
+    "name": "Jagged Peak Drake",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/jagged-peak-drake-1-elden-ring-wiki-600px.jpg",
+    "description": "Jagged Peak Foothills:90,000Dragon HeartDragonscale Flesh",
+    "route": "bosses",
+    "questId": "sote_20238",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20241",
+    "name": "Jori Elder Inquisitor",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/jori-elder-inquisitor-elden-ring-wiki-300px.jpg",
+    "description": "Jori, Elder Inquisitor is a Boss in Elden Ring. Jori, Elder Inquisitor is a hornsent summoner who wields the Barbed Staff-Spear and is found as the boss of the Darklight Catacombs, guarding the entrance to the Abyssal Woods. This is an optional boss as players do not need to defeat it to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20241",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20239",
+    "name": "Midra Lord of Frenzied Flame",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/midra_lord_of_frenzied_flame_bosses_elden_ring_wiki_300px.jpg",
+    "description": "Enough.... I have endured more than enough...I ask you forgive me, dearest Nanaya...",
+    "route": "bosses",
+    "questId": "sote_20239",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20240",
+    "name": "Fallingstar Beast",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fallingstar_beast_altus_plateau_enemies_elden_ring_wiki_300px.jpg",
+    "description": "Sellia Crystal Tunnel:7,600Somberstone Miner's Bell Bearing (1)Smithing Stone (7) x5Somber Smithing Stone (6)Gravity Stone Chunk x4",
+    "route": "bosses",
+    "questId": "sote_20240",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20237",
+    "name": "Scadutree Avatar",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scadutree_avatar_bosses_elden_ring_wiki_300px.jpg",
+    "description": "The Scadutree is the shadow of the Erdtree. Born of dark notions that bear no sense of Order, that twist and bend its stock, rendering it brittle.",
+    "route": "bosses",
+    "questId": "sote_20237",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20242",
+    "name": "Leda and Allies Boss",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-ring-player-speaking-to-leda-the-needle-knight.png",
+    "description": "Leda and Allies is an NPC battle in Elden Ring exclusive to the Shadow of the Erdtree DLC. Needle Knight Leda leads a band of Miquella's faithful to prevent you from stopping him from becoming a god. This is not an optional battle as players must defeat them to advance in Shadow of the Erdtree.",
+    "route": "bosses",
+    "questId": "sote_20242",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20243",
+    "name": "Promised Consort Radahn",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radahn_consort_of_miquella_bosses_elden_ring_wiki_600px.jpg",
+    "description": "Tarnished one. Aspiring Lord of the old order. If you have known sin, if you grieve for this world, then yield the path forward to us. To I, Miquella, and my promised consort, Radahn.",
+    "route": "bosses",
+    "questId": "sote_20243",
+    "location": "Location unknown."
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sote_fextra_20345",
+    "name": "Count Ymir, High Priest",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ymir.png",
+    "description": "I am a glintstone sorcerer. We study the stars, and examine the life therein.",
+    "route": "npcs",
+    "questId": "sote_20345",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20341",
+    "name": "Dragon Communion Priestess",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/priestess.png",
+    "description": "Warrior true. Picture yourself. Feasting upon a dragon's essence.",
+    "route": "npcs",
+    "questId": "sote_20341",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20343",
+    "name": "Dryleaf Dane",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dryleaf.png",
+    "description": "Dryleaf Dane is an NPC in Elden Ring. He is an NPC exclusive to the Shadow of the Erdtree expansion. Dryleaf Dane is a master of hand-to-hand combat and is a fervent follower of Miquella. He leaves a Monk's Missive for travelers to find and wish to seek a challenge and learn the way of the warrior.",
+    "route": "npcs",
+    "questId": "sote_20343",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20342",
+    "name": "Fire Knight Queelign (NPC)",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/queelign.png",
+    "description": "Queen Marika, mother to us all.",
+    "route": "npcs",
+    "questId": "sote_20342",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20344",
+    "name": "Hornsent",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-ring-hornsent.jpg",
+    "description": "Your kind are not forgiven. The Erdtree is my people's enemy. By Marika long betray'd, set aflame.\"",
+    "route": "npcs",
+    "questId": "sote_20344",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20350",
+    "name": "Hornsent Grandam",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hornsent_grandam_npcs_sote_wiki_guide300px1.jpg",
+    "description": "A-Ah! Who art thou, stranger...?",
+    "route": "npcs",
+    "questId": "sote_20350",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20349",
+    "name": "Igon",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/igon.png",
+    "description": "Graaaaaargh! Bayle the Dread! You shall haunt me no longer!",
+    "route": "npcs",
+    "questId": "sote_20349",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20346",
+    "name": "Jolan",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/jolan_(1).png",
+    "description": "This is the night I know. Our Night...",
+    "route": "npcs",
+    "questId": "sote_20346",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20348",
+    "name": "Moore",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/moore.png",
+    "description": "Hello there. Together, we work. Together for Miquella the Kind. Many things we have found.",
+    "route": "npcs",
+    "questId": "sote_20348",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20347",
+    "name": "Needle Knight Leda",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden_ring_leda2.jpg",
+    "description": "Come now. Touch the withered arm, and travel to the realm of shadow. \n I will not be far behind, may we meet again.",
+    "route": "npcs",
+    "questId": "sote_20347",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20352",
+    "name": "Redmane Freyja",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/freyja.png",
+    "description": "Lady Leda spoke of you. You're that Tarnished, guided here by Kindly Miquella. Weren't we all. I am Redmane Freyja. I once fought alongside Radahn. I'll hold my own in battle.",
+    "route": "npcs",
+    "questId": "sote_20352",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20351",
+    "name": "Sir Ansbach",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ansbach(1).png",
+    "description": "You must be the Tarnished. I am Sir Ansbach. Formerly in service to Lord Mohg. But now, like you, guided by Miquella.",
+    "route": "npcs",
+    "questId": "sote_20351",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20354",
+    "name": "St. Trina",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/img_7026.jpeg",
+    "description": "Godhood would be Miquella's prison. A caged divinity... is beyond saving.",
+    "route": "npcs",
+    "questId": "sote_20354",
+    "location": "Location unknown."
+  },
+  {
+    "id": "sote_fextra_20353",
+    "name": "Thiollier",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/thiollier.png",
+    "description": "Oh, hello there. Are you the Tarnished? Lady Leda spoke of you. Another Tarnished guided here by Miquella. My name is Thiollier. I too am Tarnished, and here on Miquella's account. So, well... here's to new beginnings, I suppose.",
+    "route": "npcs",
+    "questId": "sote_20353",
+    "location": "Location unknown."
+  }
+]

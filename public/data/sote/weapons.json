@@ -1,0 +1,803 @@
+[
+  {
+    "id": "sote_fextra_20439",
+    "name": "Death Knight's Twin Axes",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death_knights_twin_axes_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Death Knight's Twin Axes is an Axe in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Death Knight's Twin Axes scales primarily with Strength, Dexterity and Faith and is a good Weapon for faith builds. This comes with the Blinkbolt: Twinaxe skill, which transforms you into a bolt of lightning.",
+    "route": "weapons",
+    "questId": "sote_20439",
+    "location": "The Death Knight's Twin Axes weapon can be found at the following location: \n Fog Rift Catacombs: The weapon is obtained as a reward for defeating the Death Knight boss. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20438",
+    "name": "Forked-Tongue Hatchet",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/forked-tongue_hatchet_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Forked-Tongue Hatchet is an Axe in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Forked-Tongue Hatchet scales primarily with Strength and Dexterity.",
+    "route": "weapons",
+    "questId": "sote_20438",
+    "location": "The Forked-Tongue Hatchet weapon can be found at the following location: \n Dropped by Imps in Shadow of The Erdtree's Catacombs. \n It is farmable in the Scorpion River Catacombs. From the grace, head in and to the left, then take another left in the big room with the basilisk eyes. The imp wielding this weapon will drop down from the ceiling in a small room with a corpse."
+  },
+  {
+    "id": "sote_fextra_20442",
+    "name": "Messmer Soldier's Axe",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer_soldiers_axe_axes_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Messmer Soldier's Axe is an Axe in Elden Ring. It is a brand new Axe in the Shadow of the Erdtree DLC. The Messmer Soldier's Axe scales primarily with Strength and Dexterity and is a good Weapon for Builds that like to use Charged Heavy Attacks. It's weapon skill, War Cry, lets you increase attack power and lets you charge the enemy with heavy attacks.",
+    "route": "weapons",
+    "questId": "sote_20442",
+    "location": "The Messmer Soldier's Axe weapon can be found at the following location: \n Has a 2% chance to be dropped by the Messmer Soldiers that wield it."
+  },
+  {
+    "id": "sote_fextra_20441",
+    "name": "Smithscript Axe",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/smithscript_axe_axes_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Smithscript Axe is an Axe in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Smithscript Axe scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for players that want a ranged melee alternative without a FP cost. As a Smithscript weapon, it can be thrown and immediately returns to the user's hand.",
+    "route": "weapons",
+    "questId": "sote_20441",
+    "location": "The Smithscript Axe weapon can be found at the following location: \n Taylew's Ruined Forge: From the initial site of grace, continue following the path, get past the enemy, and take the ladder down then jump across the other platforms and turn left. You will find a Golem there. Behind it, at the back of the room, you will find the Smithscript Axe. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20440",
+    "name": "Backhand Blade",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/backhand_blade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Backhand Blade is a Backhand Blade in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Backhand Blade scales primarily with Strength and Dexterity and is a good paired Weapon for agile builds that prefer DEX as it has S scaling in DEX at max upgrade with the Keen affinity",
+    "route": "weapons",
+    "questId": "sote_20440",
+    "location": "The Backhand Blade weapon can be found at the following location: \n Beside a coffin, in the Inquisitor enemies' area of Gravesite Plain, northeast from the Scorched Ruins site of grace. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20443",
+    "name": "Curseblade's Cirque",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/curseblades_cirque_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Curseblade's Cirque is a Backhand Blade in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Curseblade's Cirque scales primarily with Strength and Dexterity and is a good Weapon for builds that like rapid attacks and paired weapons with native Bleed build up.",
+    "route": "weapons",
+    "questId": "sote_20443",
+    "location": "The Curseblade's Cirque weapon can be found at the following location: \n Drops from Curseblade enemies who wield it (one is located very close by to the Gravesite Plain site of grace, and another is located right next to the Stage Front Site of Grace in Belurat, Tower Settlement)."
+  },
+  {
+    "id": "sote_fextra_20447",
+    "name": "Smithscript Cirque",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/smithscript_cirque_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Smithscript Cirque is a Backhand Blade in Elden Ring introduced in the Shadow of the Erdtree DLC. Smithscript Cirque scales primarily with Strength, Dexterity, Intelligence, and Faith and is a good Weapon for players looking for a weapon that can be used both on melee combat and ranged combat.",
+    "route": "weapons",
+    "questId": "sote_20447",
+    "location": "The Smithscript Cirque weapon can be found at the following location: \n The weapon is looted from a body in the Ruined Forge of Starfall Past. The body is located by the edge of the sewage waterfall. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20444",
+    "name": "Red Bear's Claw",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/red_bears_claw_beast_claws_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Red Bear's Claw is a Beast Claw in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Red Bear's Claw scales primarily with Strength and Dexterity and is a good Weapon that deals damage fast and inflicts Hemorrhage.",
+    "route": "weapons",
+    "questId": "sote_20444",
+    "location": "The Red Bear's Claw weapon can be found at the following location: \n Northern Nameless Mausoleum: Weapon drops upon defeating the Red Bear located at the Northern Nameless Mausoleum. [See Shadow of the Erdtree Map] \n   \n   The path to the Northern Nameless Mausoleum may not be clear at first, due to the area appearing isolated with no apparent paths upwards. There is an unactivated spiritspring near the Temple Town Ruins (with the stone to activate it nearby) that can be used to reach the Northern Nameless Mausoleum. \n     \n     The Temple Town Ruins can be reached by going forward from the path at the Ancient Ruins Base Site of Grace. If players haven't reached this grace yet, they can arrive here by going northeast of the Moorth Ruins Site of Grace to the closest water body, where an underground tunnel which will provide a path to the Ancient Ruins Base Site of Grace."
+  },
+  {
+    "id": "sote_fextra_20446",
+    "name": "Beast Claw (Weapon)",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/beast_claw_beast_claws_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Beast Claw (Weapon) is a Beast Claw weapon in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Beast Claw (Weapon) scales primarily with Strength and Dexterity and is weapon that allows the wielder to behave like a beast. This weapon lets you execute a barrage of slash attacks that cause blood loss buildup.",
+    "route": "weapons",
+    "questId": "sote_20446",
+    "location": "The Beast Claw (Weapon) weapon can be found at the following location: \n Drops from killing Logur the Beast Claw in Gravesite Plains in the forest, southeast of the Gravesite Plain Site of Grace. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20445",
+    "name": "Ansbach's Longbow",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ansbachs_longbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Ansbach's Longbow is a Bow in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Ansbach's Longbow scales primarily with Strength and Dexterity and is wielded by Sir Ansbach. All Bows require Arrows to fire.",
+    "route": "weapons",
+    "questId": "sote_20445",
+    "location": "The Ansbach's Longbow weapon can be found at the following location: \n Kill or assist Sir Ansbach during Needle Knight Leda's questline in Shadow Keep. \n NOTE: If you assist Hornsent against Leda, you will be unable to obtain this item until the next NG cycle. Ignoring these NPC questlines yields the same result."
+  },
+  {
+    "id": "sote_fextra_20448",
+    "name": "Claws of Night",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/claws_of_night_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Claws of Night is a Claw in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Claws of Night only scales with Dexterity and is therefore a good Weapon for dexterity builds. As a Smithscript weapon, the claws can be thrown and immediately returns to the user's hand.",
+    "route": "weapons",
+    "questId": "sote_20448",
+    "location": "The Claws of Night weapon can be found at the following location: \n Dropped by NPC invader Swordhand of Night Anna, found in the Finger Ruins of Miyr underneath Cathedral of Manus Metyr. This area can only be accessed by progressing Ymir's questline. [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20451",
+    "name": "Ancient Meteoric Ore Greatsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ancient_meteoric_ore_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Ancient Meteoric Ore Greatsword is a Colossal Sword in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Ancient Meteoric Ore Greatsword scales primarily with Strength, Dexterity and Arcane and is a good Weapon for Arcane players that want to use a humongous weapon. This greatsword has high physical damage and does a decent amount of magic damage. It comes with the White Light Charge skill that lets you charge foes and blast them with light magic.",
+    "route": "weapons",
+    "questId": "sote_20451",
+    "location": "The Ancient Meteoric Ore Greatsword weapon can be found at the following location: \n Ruined Forge Starfall Past: The weapon is acquired after examining the altar of the Ruined Forge of Starfall Past. The altar is found on the second level. To reach the altar, you must pull the lever to make the iron door rise, and use it as a platform to jump across to the second level where the altar is. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20452",
+    "name": "Fire Knight's Greatsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_knights_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Fire Knight's Greatsword is a Colossal Sword in Elden Ring. It is a Colossal Sword introduced in the Shadow of the Erdtree DLC. The Fire Knight's Greatsword scales primarily with Strength, Dexterity and Faith and is a good Weapon for fire builds. This weapon has the Stamp Skill, which prevents you in a short time from being staggered.",
+    "route": "weapons",
+    "questId": "sote_20452",
+    "location": "The Fire Knight's Greatsword weapon can be found at the following location: \n 4.0% Chance to be dropped by Fire Knights that wield it in the Shadow Keep. \n Easiest way to farm this is by taking the elevator southwest from the \"Storehouse, First Floor\" site of grace down and defeating the one enemy that wields it."
+  },
+  {
+    "id": "sote_fextra_20450",
+    "name": "Greatsword of Radahn (Light)",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greatsword_of_radahn_(light)_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Greatsword of Radahn (Light) is a Colossal Sword in Elden Ring. It is a brand new Colossal Sword in the Shadow of the Erdtree DLC. The Greatsword of Radahn (Light) scales primarily with Strength, Dexterity and Intelligence and can be obtained by trading the Remembrance of a God and a Lord at the Roundtable Hold.",
+    "route": "weapons",
+    "questId": "sote_20450",
+    "location": "The Greatsword of Radahn (Light) weapon can be found at the following location: \n Trade Remembrance of a God and a Lord with Enia at Roundtable Hold. The two other options are Greatsword of Radahn (Lord) and Light of Miquella."
+  },
+  {
+    "id": "sote_fextra_20449",
+    "name": "Greatsword of Radahn (Lord)",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greatsword_of_radahn_(lord)_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Greatsword of Radahn (Lord) is a Colossal Sword in Elden Ring. It is a brand new Colossal Sword in the Shadow of the Erdtree DLC. The Greatsword of Radahn (Lord) scales primarily with Strength, Dexterity, and Intelligence and is one of the options players can select when trading the Remembrance of a God and a Lord.",
+    "route": "weapons",
+    "questId": "sote_20449",
+    "location": "The Greatsword of Radahn (Lord) weapon can be found at the following location: \n Trade Remembrance of a God and a Lord with Enia at Roundtable Hold. The two other options are Greatsword of Radahn (Light) and Light of Miquella."
+  },
+  {
+    "id": "sote_fextra_20455",
+    "name": "Moonrithyll's Knight Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/troll_knights_sword_colossal_swords_elden_ring_wiki_guide_200px.png",
+    "description": "Moonrithyll's Knight Sword is a Colossal Sword in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Moonrithyll's Knight Sword scales primarily with Strength, Dexterity and Intelligence and is a good Weapon for Strength/Intelligence Builds. This comes with the Tremendous Phalanx skill, which lets you summon magic blades that head towards enemies around you.",
+    "route": "weapons",
+    "questId": "sote_20455",
+    "location": "The Moonrithyll's Knight Sword weapon can be found at the following location: \n The weapon drops from defeating the hostile NPC Moonrithyll, Carian Knight. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20456",
+    "name": "Anvil Hammer",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/anvil_hammer_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Anvil Hammer is a Colossal Weapon in Elden Ring. It is a brand new Colossal Weapon in the Shadow of the Erdtree DLC. The Anvil Hammer scales primarily with Strength, Dexterity,  Intelligence and Faith and is a good Weapon for Strength or multi-attribute Builds. This weapon comes with the Smithing Art Spears skill which lets you smash the ground very hard and summons multiple spears from the ground.",
+    "route": "weapons",
+    "questId": "sote_20456",
+    "location": "The Anvil Hammer weapon can be found at the following location: \n Ruined Forge Lava Intake. Use the column you have lowered with the lever as a bridge and climb it until the end. Beware of the fire blob, and then at the top, turn right and jump to reach the stairs. Climb them up and interact with a furnace to obtain this weapon and an Ancient Dragon Smithing Stone. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20457",
+    "name": "Bloodfiend's Arm",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodfiends_arm_colossal_weapon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Bloodfiend's Arm is a Colossal Weapon in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Bloodfiend's Arm scales primarily with Strength, Dexterity and Arcane and is a good Weapon for Bleed and Arcane Builds. This is a slow but hard-hitting weapon that sprays blood when using the heavy attacks.",
+    "route": "weapons",
+    "questId": "sote_20457",
+    "location": "The Bloodfiend's Arm weapon can be found at the following location: \n Guaranteed one-time drop from a Bloodfiend group in Prospect Town located at the Gravesite Plain. [Elden Ring Map]"
+  },
+  {
+    "id": "sote_fextra_20453",
+    "name": "Devonia's Hammer",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/devonias_hammer_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Devonia's Hammer is a Colossal Weapon in Elden Ring. It is a Colossal Weapon introduced in the Shadow of the Erdtree DLC. The Devonia's Hammer scales primarily with Strength, Dexterity, and Faith and is a good Weapon for STR/FAI builds. It draws from the power of the Crucible.",
+    "route": "weapons",
+    "questId": "sote_20453",
+    "location": "The Devonia's Hammer weapon can be found at the following location: \n Dropped by Devonia, Crucible Knight near Rauh Ancient Ruins, East Grace. [Map Link] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20454",
+    "name": "Gazing Finger",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gazing_finger_colossal_weapon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Gazing Finger is a Colossal Weapon in Elden Ring. It is a brand new Colossal Weapon in the Shadow of the Erdtree DLC. The Gazing Finger scales primarily with Strength, Intelligence and Faith and can be obtained after trading the Remembrance of the Mother of Fingers at the Roundtable Hold. This has the Kowtower's Resentment skill that lets you slam the weapon down and causes a holy explosion.",
+    "route": "weapons",
+    "questId": "sote_20454",
+    "location": "The Gazing Finger weapon can be found at the following location: \n Trade Remembrance of the Mother of Fingers at Enia to receive this weapon."
+  },
+  {
+    "id": "sote_fextra_20461",
+    "name": "Shadow Sunflower Blossom",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/shadow_sunflower_blossom_colossal_weapon_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Shadow Sunflower Blossom is a Colossal Weapon in Elden Ring. It is a brand new Colossal Weapon in the Shadow of the Erdtree DLC. The Shadow Sunflower Blossom scales primarily with Strength, Dexterity and Faith and it can be obtained after trading the Remembrance of the Shadow Sunflower.",
+    "route": "weapons",
+    "questId": "sote_20461",
+    "location": "The Shadow Sunflower Blossom weapon can be found at the following location: \n Trade Remembrance of the Shadow Sunflower at Enia to receive this weapon."
+  },
+  {
+    "id": "sote_fextra_20460",
+    "name": "Repeating Crossbow",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/repeating_crossbow_crossbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Repeating Crossbow is a Crossbow in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Repeating Crossbow scales primarily with Strength and is a good Weapon that inflicts ranged damage and solid barrage of shots. It is the only crossbow with a unique skill. All Crossbows require Bolts to fire.",
+    "route": "weapons",
+    "questId": "sote_20460",
+    "location": "The Repeating Crossbow weapon can be found at the following location: \n Along the road next to the Ghostflame Dragon north of the Moorth Highway, South site of Grace. [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20462",
+    "name": "Spread Crossbow",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spread_crossbow_crossbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Spread Crossbow is a Crossbow in Elden Ring. It is a brand-new Crossbow in the Shadow of the Erdtree DLC. The Spread Crossbow does not scale with any stat attributes, but requires Strength and Dexterity. It is a good Weapon for dealing with groups of enemies. All Crossbows require Bolts to fire.",
+    "route": "weapons",
+    "questId": "sote_20462",
+    "location": "The Spread Crossbow weapon can be found at the following location: \n Found on a body by the riverside and the Ellac Greatbridge. From the Castle Front site of grace, head east until you reach the rock wall, and then turn south, drop down the short cliff and continue south. Just after the first wooden stake fence, head west and drop down to three Messmer Soldiers. The Spread Crossbow is on a corpse in this camp. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20459",
+    "name": "Freyja's Greatsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/freyjas_greatsword_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Freyja's Greatsword is a Curved Greatsword in Elden Ring. It is a brand new Curved Greatsword in the Shadow of the Erdtree DLC. Freyja's Greatsword scales primarily with Strength and Dexterity and is the powerful Weapon wielded by Redmane Freyja. This comes with the Spinning Slash skill which is the favorite skill of dexterous warriors that lets you slash foes as your body spins. This momentum can connect into a final heavy attack.",
+    "route": "weapons",
+    "questId": "sote_20459",
+    "location": "Freyja's Greatsword appears wherever Redmane Freyja dies: \n If you gave her Freyja's Letter, you can find Freyja's Greatsword on her body after beating her in the Leda and Allies Boss fight [Map Link] [Video Link] \n Otherwise, you can find it by the Storehouse, Seventh Floor Site of Grace after beating the Leda and Allies Boss fight"
+  },
+  {
+    "id": "sote_fextra_20458",
+    "name": "Horned Warrior's Greatsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/horned_warriors_greatsword_curved_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Horned Warrior's Greatsword is a Curved Greatsword in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Horned Warrior's Greatsword scales primarily with Strength, Dexterity and Faith and is a good Weapon for Builds that use Strength and Faith. This comes with the Horn Calling skill which lets you do a ground slam with the weapon, letting multiple horns come out of the ground under an enemy.",
+    "route": "weapons",
+    "questId": "sote_20458",
+    "location": "The Horned Warrior's Greatsword weapon can be found at the following location: \n Guaranteed drop from the Wind-Aspected Divine Beast Warrior towards the end of Enir-Ilim. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20467",
+    "name": "Dancing Blade of Ranah",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dancing_blade_of_ranah_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Dancing Blade of Ranah is a paired Curved Sword in Elden Ring. It is a brand new Curved Sword in the Shadow of the Erdtree DLC. The Dancing Blade of Ranah scales primarily with Dexterity and is a good Weapon for Dexterity Builds that attack rapidly. This weapon comes with the Unending Dance Skill which lets you slash repeatedly until you drain your stamina.",
+    "route": "weapons",
+    "questId": "sote_20467",
+    "location": "The Dancing Blade of Ranah weapon can be found at the following location: \n Dropped by defeating Dancer of Ranah at the Southern Nameless Mausoleum [Elden Ring Shadow of the Erdtree Interactive Map]"
+  },
+  {
+    "id": "sote_fextra_20463",
+    "name": "Falx",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/falx_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Falx is a Curved Sword in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Falx scales with Strength and Dexterity. This comes with the Revenger's Blade skill which lets you dash up to an enemy and slash them open with the blades held in each hand and has tremendous bleed build-up.",
+    "route": "weapons",
+    "questId": "sote_20463",
+    "location": "The Falx is dropped by Hornsent wherever he's killed, which can be: \n If you summoned him to fight Messmer the Impaler, he will drop the Falx after invading you near the Church of the Bud site of grace [Map Link] \n If you choose to assist Leda and invade Hornsent in Shadow Keep, he will drop the Falx once defeated [Video Link] \n Otherwise, you can find the Falx on his corpse after fighting him as part of the Leda and Allies Boss fight."
+  },
+  {
+    "id": "sote_fextra_20464",
+    "name": "Horned Warrior's Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/horned_warriors_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Horned Warrior's Sword is a Curved Sword in Elden Ring. It is a brand new Curved Sword in the Shadow of the Erdtree DLC. The Horned Warrior's Sword scales primarily with Strength and Dexterity and is a good Weapon for players who like paired weapons or Curved Swords but don't want to farm two. This comes with the Horn Calling skill which lets you do a ground slam with the weapon, letting multiple horns come out of the ground under an enemy.",
+    "route": "weapons",
+    "questId": "sote_20464",
+    "location": "The Horned Warrior's Sword weapon can be found at the following location: \n This can be obtained by eliminating the Horned Warrior in the Belurat Tower Settlement Swamp. [Elden Ring Map Link] \n Drops from Horned Warriors who wield them (an easy one to farm is located just up the stairs from the Small Private Altar Site of Grace in Belurat, Tower Settlement [Map Link] \n Drops from a Horned Warrior who wields them, located just by Ravine north Site of Grace [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20466",
+    "name": "Spirit Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spirit_sword_1_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Spirit Sword is a Curved Sword in Elden Ring. It is a brand new Curved Sword in the Shadow of the Erdtree DLC. The Spirit Sword scales primarily with Strength, Dexterity, and Intelligence and is a good Weapon for INT characters in the look for a sword. This weapon comes with the Rancor Slash skill which lets you summon spirits towards enemies.",
+    "route": "weapons",
+    "questId": "sote_20466",
+    "location": "The Spirit Sword weapon can be found at the following location: \n You can find this weapon in the Cerulean Coast. Northeast from the Cerulean Coast West site of grace, the entrance to a triangular ravine can be accessed. It's in the right corner in that lower area, near some demi-humans. [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20465",
+    "name": "Fire Knight's Shortsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_knights_shortsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Fire Knight's Shortsword is a Dagger in Elden Ring. It is a brand new Dagger in the Shadow of the Erdtree DLC. The Fire Knight's Shortsword scales primarily with Strength, Dexterity and Faith and is a good Weapon for Fire-based builds. This can be dropped by the Fire Knights and comes with the Quickstep skill.",
+    "route": "weapons",
+    "questId": "sote_20465",
+    "location": "The Fire Knight's Shortsword weapon can be found at the following location: \n Has a 4.0% chance to drop by Fire Knights wielding this weapon in Shadow Keep \n Can be farmed by dropping down and killing the Fire Knight below the Storehouse, Loft site of Grace and the Fire Knight just east of the Storehouse, Seventh Floor site of grace. [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20470",
+    "name": "Main-gauche",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/main-gauche_dagger_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Main-gauche is a Dagger in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Main-gauche scales primarily with Strength and Dexterity and is a good Weapon for performing quick slashes. This weapon comes in left-handed and allows you to stagger and land heavy hits to enemies with the Parry skill.",
+    "route": "weapons",
+    "questId": "sote_20470",
+    "location": "The Main-gauche weapon can be found at the following location: \n Shadow Keep: From the Main Gate Plaza site of grace go west and up the stairs until the soldier ambushes you, then enter that room and on the right there is another doorway. The item is in there protected by two soldiers and a blacksteel knight. [See Shadow of the Erdtree Map] []"
+  },
+  {
+    "id": "sote_fextra_20472",
+    "name": "Golem Fist",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/golem_fist_fist_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Golem Fist is a Fist in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Golem Fist scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for players that want a ranged melee alternative without a FP cost. As a Smithscript weapon, it can be thrown and immediately returns to the user's hand.",
+    "route": "weapons",
+    "questId": "sote_20472",
+    "location": "The Golem Fist weapon can be found at the following location: \n Looted from Golems throwing stones in Taylew's Ruined Forge (3.0% drop chance). \n A simpler way to farm this is being seen from both the first 2 Golems, fall onto the lower floor to kill the lava tears, lure the closest Golem to make it fall down too and then climb the way up to fight the only Golem dropping the weapon."
+  },
+  {
+    "id": "sote_fextra_20471",
+    "name": "Madding Hand",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/madding_hand_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Madding Hand is a Fist in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Madding Hand scales primarily with Strength, Dexterity, Intelligence, and Faith and is a good Weapon for inflicting Madness.",
+    "route": "weapons",
+    "questId": "sote_20471",
+    "location": "The Madding Hand weapon can be found at the following location: \n South of Woodland Trail site of grace in the Abyssal Woods. Drop by the Madding Hand enemy. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20469",
+    "name": "Pata",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/pata_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Pata is a Fist in Elden Ring. It is a brand new Fist in the Shadow of the Erdtree DLC. The Pata scales primarily with Strength and Dexterity and is a good Weapon for players looking a fist weapon with good range. This can be dual wielded and comes with the Impaling Thrust skill which allows you to go through enemies.",
+    "route": "weapons",
+    "questId": "sote_20469",
+    "location": "The Pata weapon can be found at the following location: \n Found inside a hanging body, just outside the Church of Benediction. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20468",
+    "name": "Poisoned Hand",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/poisoned_hand_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Poisoned Hand is a Fist in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Poisoned Hand scales primarily with Strength and Arcane and is a good Weapon for inflicting Poison.",
+    "route": "weapons",
+    "questId": "sote_20468",
+    "location": "The Poisoned Hand weapon can be found at the following location: \n Sewer Level of the Belurat Tower Settlement in Gravesite Plain. \n There is a Horned Warrior, in the sewer level of the Belurat Tower Settlement legacy dungeon. To that area's right, there is a medium-sized building, similar to a church, and beside it, you will find the Poisoned Hand weapon. Note that the building is infested with Man-Fly. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20476",
+    "name": "Thiollier's Hidden Needle",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/thiolliers_hidden_needle_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Thiollier's Hidden Needle is a Fist in Elden Ring. It is a brand-new Fist in the Shadow of the Erdtree DLC. The Thiollier's Hidden Needle scales primarily with Strength, Dexterity and Intelligence and is a good Weapon for players that want to use a weapon capable of inflicting Sleep.",
+    "route": "weapons",
+    "questId": "sote_20476",
+    "location": "The Thiollier's Hidden Needle weapon can be found at the following location: \n Finish the St. Trina and Thiollier quests and loot it after defeating the final boss. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20474",
+    "name": "Maternal Staff",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dryleaf_seal_glinstone_staff_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Maternal Staff is a Glintstone Staff in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Maternal Staff scales primarily with Intelligence and Arcane and is a good Weapon for INT/ARC Builds and those using Finger Sorceries.",
+    "route": "weapons",
+    "questId": "sote_20474",
+    "location": "The Maternal Staff weapon can be found at the following location: \n Cathedral of Manus Metyr: Dropped by Count Ymir, Mother of Fingers. [SOTE Map Link]"
+  },
+  {
+    "id": "sote_fextra_20477",
+    "name": "Staff of the Great Beyond",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/staff_of_the_great_beyond_glintstone_staff_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Staff of the Great Beyond is a Glintstone Staff in Elden Ring. It was added the Shadow of the Erdtree DLC. The Staff of the Great Beyond scales primarily with Intelligence and Faith and is a good Weapon for full-spellcasters, allowing to cast both Sorceries and Incantations.",
+    "route": "weapons",
+    "questId": "sote_20477",
+    "location": "The Staff of the Great Beyond weapon can be found at the following location: \n Trade Remembrance of the Mother of Fingers with Enia at the Roundtable Hold."
+  },
+  {
+    "id": "sote_fextra_20475",
+    "name": "Bonny Butchering Knife",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bonny_butchering_knife_greataxe_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Bonny Butchering Knife is a Greataxe in Elden Ring. It is a brand new Greataxe in the Shadow of the Erdtree DLC. The Bonny Butchering Knife scales primarily with Strength and Dexterity and is a good Weapon for players looking for a weapon that can restore a small amount of HP when dealing damage.",
+    "route": "weapons",
+    "questId": "sote_20475",
+    "location": "The Bonny Butchering Knife weapon can be found at the following location: \n Bonny Village: Below a small shed, outside a house. Near the broken bridge. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20473",
+    "name": "Death Knight's Longhaft Axe",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death_knights_longhaft_axe_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Death Knight's Longhaft Axe is a Greataxe in Elden Ring. It is a brand new Greataxe in the Shadow of the Erdtree DLC. The Death Knight's Longhaft Axe scales primarily with Strength, Dexterity and Faith and is a good Weapon for faith players looking for a great axe. This weapon deals both physical and lightning damage and comes with the Blinkbolt: Long-hafted Axe skill that transforms you into a bolt of lightning that rushes down to enemies and follows up with a heavy attack.",
+    "route": "weapons",
+    "questId": "sote_20473",
+    "location": "The Death Knight's Longhaft Axe weapon can be found at the following location: \n The weapon is obtained as a reward for defeating the Death Knight boss located at the Scorpion River Catacombs. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20479",
+    "name": "Putrescence Cleaver",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/putrescence_cleaver_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Putrescence Cleaver is a Greataxe in Elden Ring. It is a brand new Greataxe in the Shadow of the Erdtree DLC. The Putrescence Cleaver scales primarily with Strength, Dexterity and Arcane and is a good Weapon for inflicting Frostbite. This weapon causes frost to build up which gains power from you arcane stat. It also comes with the Spinning Guillotine skill that lets you ground slam the blade, followed up by spinning slashes.",
+    "route": "weapons",
+    "questId": "sote_20479",
+    "location": "The Putrescence Cleaver weapon can be found at the following location: \n Trade Remembrance of Putrescence with Enia at the Roundtable Hold to receive this item."
+  },
+  {
+    "id": "sote_fextra_20478",
+    "name": "Igon's Greatbow",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/igons_greatbow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Igon's Greatbow is a Greatbow in Elden Ring. It is found in the Shadow of the Erdtree DLC. Igon's Greatbow scales primarily with Strength and is specifically made for hunting dragons. Despite the mobility flaw, the heavy damage dealt when using great arrows makes up for it. All Greatbows require Great Arrows to fire.",
+    "route": "weapons",
+    "questId": "sote_20478",
+    "location": "The Igon's Greatbow weapon can be found at the following location: \n Defeat Igon on the eastern side of Gravesite Plain [Map Link] \n Complete Igon's questline by summoning him and then defeating Bayle the Dread. Igon will drop his items at his previous location, just south-east of Foot of the Jagged Peak [Map Link] his body will have both Igon's Greatbow and Igon's set."
+  },
+  {
+    "id": "sote_fextra_20480",
+    "name": "Black Steel Greathammer",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_steel_greathammer_great_hammer_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Black Steel Greathammer is a Great Hammer in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Black Steel Greathammer scales primarily with Strength, Dexterity and Faith and is a good Weapon for Faith builds that are looking for a massive weapon that also scales with Strength and Dexterity.",
+    "route": "weapons",
+    "questId": "sote_20480",
+    "location": "The Black Steel Greathammer weapon can be found at the following location: \n Guaranteed drop from the Black Knight found at the Church of Consolation. [Elden Ring Shadow of the Erdtree Map Link]"
+  },
+  {
+    "id": "sote_fextra_20482",
+    "name": "Smithscript Greathammer",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/smithscript_greathammer_great_hammer_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Smithscript Greathammer is a Great Hammer in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Smithscript Greathammer scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for players looking for a heavy ranged melee alternative without a FP cost. As a Smithscript weapon, it can be thrown and immediately returns to the user's hand.",
+    "route": "weapons",
+    "questId": "sote_20482",
+    "location": "The Smithscript Greathammer weapon can be found at the following location: \n Taylew's Ruined Forge: Use the giant platform in the middle to jump to the other side. Once there, keep moving forward and on the left side there will be a fire blob enemy protecting the item. Defeat the enemy and loot the corpse behind it to obtain the weapon. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20481",
+    "name": "Dragon-Hunter's Great Katana",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragon-hunters_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Dragon-Hunter's Great Katana is a Great Katana in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Dragon-Hunter's Great Katana scales primarily with Strength and Dexterity and is a potent Weapon to oppose dragon-like creatures.",
+    "route": "weapons",
+    "questId": "sote_20481",
+    "location": "The Dragon-Hunter's Great Katana weapon can be found at the following location: \n Dropped by the Ancient Dragon-Man in the Dragon's Pit. [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20487",
+    "name": "Great Katana",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/great_katana_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Great Katana is a Great Katana in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Great Katana scales primarily with Dexterity and Strength and is a good Weapon for Dexterity Builds. While being heavier than most common katanas, it has a longer reach and higher base damage.",
+    "route": "weapons",
+    "questId": "sote_20487",
+    "location": "The Great Katana weapon can be found at the following location: \n Gravesite Plain: The Great Katana can be found next to the sleeping Ghostflame Dragon on the lake, west of the Abandoned Ailing Village site of grace. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20484",
+    "name": "Rakshasa's Great Katana",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rakshasas_great_katana_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Rakshasa's Great Katana is a Great Katana in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Rakshasa's Great Katana scales primarily with Strength and Dexterity and is a good Weapon for STR/DEX builds. This weapon has blood-loss buildup and reduces your chances of getting staggered during attacks.",
+    "route": "weapons",
+    "questId": "sote_20484",
+    "location": "The Rakshasa's Great Katana weapon can be found at the following location: \n Dropped by Rakshasa in Eastern Nameless Mausoleum. This area can only be accessed by using the ladder in Shadow Keep to get down to a special teleport coffin (this Elden Ring Map location). This will take you to Ruins of Unte and you must follow the cliffs downstream and then carefully drop down to bottom level to reach the mausoleum. [Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20486",
+    "name": "Barbed Staff-Spear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/barbed_staff-spear_spears_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Barbed Staff-Spear is a Great Spear in Elden Ring. It is a brand-new Great Spear in the Shadow of the Erdtree DLC. The Barbed Staff-Spear scales primarily with Strength, Dexterity and Faith and is a good Weapon for Faith players. This has the Jori's Inquisition skill that lets you summon golden arcs towards foes.",
+    "route": "weapons",
+    "questId": "sote_20486",
+    "location": "The Barbed Staff-Spear weapon can be found at the following location: \n Dropped by Jori Elder Inquisitor who can be found in the Abyssal Woods. [Elden Ring Shadow of Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20485",
+    "name": "Bloodfiend's Sacred Spear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodfiends_sacred_spear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Bloodfiend's Sacred Spear is a Great Spear in Elden Ring. It is a brand new Great Spear in the Shadow of the Erdtree DLC. The Bloodfiend's Sacred Spear scales primarily with Strength, Dexterity and Arcane and is a good Weapon for Arcane builds. This weapon causes blood-loss build-up and comes with the Bloodfiend's Bloodboon skill that lets you summon blood flames to your enemy.",
+    "route": "weapons",
+    "questId": "sote_20485",
+    "location": "The Bloodfiend's Sacred Spear weapon can be found at the following location: \n The Bloodfiend west of Taylew's Ruined Forge drops this when killed. [Elden Ring Shadow of the Erdtree Map Link]"
+  },
+  {
+    "id": "sote_fextra_20483",
+    "name": "Messmer Soldier's Spear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/messmer_soldiers_spear_spears_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Messmer Soldier's Spear is a Great Spear in Elden Ring. It is a brand new Great Spear in the Shadow of the Erdtree DLC. The Messmer Soldier's Spear scales primarily with Strength and Dexterity and is a well-balanced Weapon. This weapon can be used while guarding with a shield and has the thrust skill that goes through an enemy.",
+    "route": "weapons",
+    "questId": "sote_20483",
+    "location": "The Messmer Soldier's Spear weapon can be found at the following location: \n Has a 2.00% chance to be dropped by Messmer Soldiers. A good location to find them is from the Moorth Ruins site of grace, three of them wielding spears are at a camp to the west."
+  },
+  {
+    "id": "sote_fextra_20488",
+    "name": "Spear of the Impaler",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spear_of_the_impaler_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Spear of the Impaler is a Great Spear in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Spear of the Impaler scales primarily with Strength, Dexterity, and Faith and is the legendary spear wielded by Messmer the Impaler. This comes with the Messmer's Assault skill that lets you do a combo of attacks and eventually slamming the spear that causes a wide area of damage.",
+    "route": "weapons",
+    "questId": "sote_20488",
+    "location": "The Spear of the Impaler weapon can be found at the following location: \n Trade Remembrance of the Impaler with Enia at Roundtable Hold."
+  },
+  {
+    "id": "sote_fextra_20489",
+    "name": "Greatsword of Damnation",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greatsword_of_damnation_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Greatsword of Damnation is a Greatsword in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Greatsword of Damnation scales primarily with Strength, Dexterity and Faith and is a good Weapon for for Faith players that are looking for a Greatsword. This weapon has high physical and holy damage and comes with the Golden Crux that allows you to do a leaping attack.",
+    "route": "weapons",
+    "questId": "sote_20489",
+    "location": "The Greatsword of Damnation weapon can be found at the following location: \n Trade Midra, Lord Of Frenzied Flame's Remembrance with Enia at Roundtable Hold."
+  },
+  {
+    "id": "sote_fextra_20490",
+    "name": "Greatsword of Solitude",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greatsword_of_solitude_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Greatsword of Solitude is a Greatsword in Elden Ring. It is a brand new Greatsword in the Shadow of the Erdtree DLC. The Greatsword of Solitude scales primarily with Strength and Dexterity and is a good Weapon for pure Strength Builds. Its weapon skill, the Solitary Moon Slash, lets you summon light that can damage your enemies.",
+    "route": "weapons",
+    "questId": "sote_20490",
+    "location": "The Greatsword of Solitude weapon can be found at the following location: \n This item is obtained after defeating the Blackgaol Knight. This boss is located inside the Western Nameless Mausoleum. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20492",
+    "name": "Lizard Greatsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lizard_greatsword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Lizard Greatsword is a Greatsword in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Lizard Greatsword scales primarily with Strength and Dexterity and is a good Weapon for balanced builds that look to have an impish look. This weapon can launch a projectile when you use its heavy attack and has the Stamp Skill that can shortly prevent you from being staggered.",
+    "route": "weapons",
+    "questId": "sote_20492",
+    "location": "The Lizard Greatsword weapon can be found at the following locations: \n Dropped by the imps in the Scorpion River Catacombs.  \n Dropped by the imps in the Fog Rift Catacombs (can be farmed from first fought imp)."
+  },
+  {
+    "id": "sote_fextra_20491",
+    "name": "Poleblade of the Bud",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/poleblade_of_the_bud_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Poleblade of the Bud is a Halberd in Elden Ring. It is a brand-new Halberd in the Shadow of the Erdtree DLC. The Poleblade of the Bud scales primarily with Strength, Dexterity and Arcane and is the weapon wielded by Romina, Saint of the Bud. This causes scarlet rot buildup and has the skill called Romina's Purification which lets you do sweep attacks that have Scarlet Rot.",
+    "route": "weapons",
+    "questId": "sote_20491",
+    "location": "The Poleblade of the Bud weapon can be found at the following location: \n Trade Remembrance of the Saint of the Bud with Enia to be able to receive this weapon. The remembrance is dropped by Romina, Saint of the Bud at the Church of the Bud. [Elden Ring Shadowtree Map Link]"
+  },
+  {
+    "id": "sote_fextra_20496",
+    "name": "Spirit Glaive",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spirit_glaive_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Spirit Glaive is a Halberd in Elden Ring. It is a brand-new Halberd in the Shadow of the Erdtree DLC. The Spirit Glaive scales primarily with Strength, Dexterity, and Intelligence and is a good Weapon for INT players, and is related to the Spirit Sword, sharing the same Skill, which is the Rancor Slash.",
+    "route": "weapons",
+    "questId": "sote_20496",
+    "location": "The Spirit Glaive weapon can be found at the following location: \n Start at the Charo's Hidden Grave site of grace and walk through the arch to the northwest, turn right directly after and take the path that ramps up north, follow it to where it meets the edge of the Gravesite Plains and it will be on a grave. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20493",
+    "name": "Flowerstone Gavel",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/flowerstone_gavel_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Flowerstone Gavel is a Hammer in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Flowerstone Gavel scales primarily with Strength, Dexterity and Arcane and can be obtained from completing the Dragon Communion Priestess questline.",
+    "route": "weapons",
+    "questId": "sote_20493",
+    "location": "The Flowerstone Gavel weapon can be found at the following location: \n The Dragon Communion Priestess drops this item at the Grand Altar of Dragon Communion after defeating Bayle The Dread and not giving her Thiollier's Concoction beforehand. [See SOTE Elden Ring DLC Map]"
+  },
+  {
+    "id": "sote_fextra_20495",
+    "name": "Dane's Footwork",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/danes_footwork_hand-to-hand_arts_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Dane's Footwork is a Hand-to-Hand Art in Elden Ring. It is an armament introduced in the Shadow of the Erdtree DLC. The Dane's Footwork scales primarily with Strength and Dexterity and is a good Weapon for players that want to experience this new weapon type.",
+    "route": "weapons",
+    "questId": "sote_20495",
+    "location": "Dane's Footwork is on Dryleaf Dane's body after you beat the Leda and Allies Boss fight [Map Link] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20494",
+    "name": "Dryleaf Arts",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dryleaf_arts_hand-to-hand_arts_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Dryleaf Arts is a Hand-to-Hand Art in Elden Ring. It is an armament introduced in the Shadow of the Erdtree DLC. The Dryleaf Arts scales primarily with Strength and Dexterity and is a good Weapon for those looking for rapid attacks with long combos.",
+    "route": "weapons",
+    "questId": "sote_20494",
+    "location": "The Dryleaf Arts weapon can be found at the following location: \n This weapon is obtained as a drop upon defeating Dryleaf Dane in a duel near Moorth Ruins. [Elden Ring Shadow of the Erdtree Interactive Map]"
+  },
+  {
+    "id": "sote_fextra_20497",
+    "name": "Queelign's Greatsword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/queeligns_greatsword_heavy_thrusting_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Queelign's Greatsword is a Heavy Thrusting Sword in Elden Ring. It is a brand new Heavy Thrusting Sword in the Shadow of the Erdtree DLC. The Queelign's Greatsword scales primarily with Strength, Dexterity and Faith and is the Weapon wielded by Fire Knight Queelign.",
+    "route": "weapons",
+    "questId": "sote_20497",
+    "location": "The Queelign's Greatsword weapon can be found at the following location: \n Shadow Keep: Use the Iris of Occultation on Queelign in the Prayer Room to receive Queelign's Greatsword. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20502",
+    "name": "Sword Lance",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sword_lance_heavy_thrusting_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Sword Lance is a Heavy Thrusting Sword in Elden Ring. It is a brand new Heavy Thrusting Sword in the Shadow of the Erdtree DLC. The Sword Lance scales primarily with Strength and Dexterity and is available after trading  the Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold. This weapon comes with the Spinning Gravity Thrust which lets you levitate and thrust towards an enemy while spinning.",
+    "route": "weapons",
+    "questId": "sote_20502",
+    "location": "The Sword Lance weapon can be found at the following location: \n Can be selected as one of the possible rewards when trading Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold.  \n   \n   The other available reward is a sorcery, Blades of Stone."
+  },
+  {
+    "id": "sote_fextra_20499",
+    "name": "Star-Lined Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/star-lined_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Star-Lined Sword is a Katana in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Star-Lined Sword scales primarily with Strength, Dexterity, and Intelligence and is a good Weapon for dex oriented builds. This is a weapon that causes blood loss and has a skill called Onze's Line of Stars, which lets you slash multiple times with each slash getting stronger.",
+    "route": "weapons",
+    "questId": "sote_20499",
+    "location": "The Star-Lined Sword weapon can be found at the following location: \n Dropped by Demi-Human Queen Marigga, who can be found in the Cerulean Coast starting from Cerulean Coast West Site of Grace to follow the path northeast populated with demi-humans. [Elden Ring Shadow of the Erdtree Map]."
+  },
+  {
+    "id": "sote_fextra_20501",
+    "name": "Sword of Night",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sword_of_night_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Sword of Night is a Katana in Elden Ring. It is a Katana introduced in the Shadow of the Erdtree DLC. The Sword of Night scales with Dexterity and is a good Weapon for DEX Builds. This comes with the skill, Witching Hour Slash which is an unblockable slash attack that infuses the dark of night on the blade.",
+    "route": "weapons",
+    "questId": "sote_20501",
+    "location": "The Sword of Night weapon can be found at the following location: \n Cathedral of Manus Metyr: After completing the whole finger questline for Count Ymir, Jolan will be dejected nearby. Give her an Iris of Occultation to get the Sword of Night [Elden Ring Map]"
+  },
+  {
+    "id": "sote_fextra_20500",
+    "name": "Bone Bow",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bone_bow_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Bone Bow is a Light Bow in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Bone Bow scales primarily with Strength and Dexterity and is a good Weapon for setting status effects and enemies who input read projectiles. This is a fast weapon that comes with the Rancor Shot skill that lets you engulf your arrows with spirits that go for an enemy. All Light Bows require Arrows to fire.",
+    "route": "weapons",
+    "questId": "sote_20500",
+    "location": "The Bone Bow weapon can be found at the following location: \n Belurat Tower Settlement: Can be found being protected by 2 giant Spider-Scorpions, inside the massive tower with a broken spiral staircase. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20498",
+    "name": "Leda's Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ledas_sword_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Leda's Sword is a Light Greatsword in Elden Ring. It is found in the Shadow of the Erdtree DLC. Leda's Sword scales primarily with Strength, Dexterity and Faith. It is a good weapon for dealing piercing damage and removing buffs with its Skill.",
+    "route": "weapons",
+    "questId": "sote_20498",
+    "location": "Leda's Sword is dropped by Needle Knight Leda after the Leda and Allies Boss fight [Map Link] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20505",
+    "name": "Milady",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/milady_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Milady is a Light Greatsword in Elden Ring. It is a found in the Shadow of the Erdtree DLC. The Milady scales primarily with Strength and Dexterity and is a good Weapon for chaining together light and heavy attacks as well as having a large variety of Ashes of War.",
+    "route": "weapons",
+    "questId": "sote_20505",
+    "location": "The Milady weapon can be found at the following location: \n Castle Ensis: The Milady Light Greatsword weapon can be found inside a chest. The chest is located at the top of a watchtower. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20507",
+    "name": "Rellana's Twin Blades",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rellanas_twinblade_light_greatswords_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Rellana's Twin Blades is a Light Greatsword in Elden Ring. It is a found in the Shadow of the Erdtree DLC. The Rellana's Twin Blades scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for Int/Faith Builds. This weapon can be dual-wielded and comes with Fire, Physical, and Magic damage.",
+    "route": "weapons",
+    "questId": "sote_20507",
+    "location": "The Rellana's Twin Blades weapon can be found at the following location: \n Trade Remembrance of the Twin Moon Knight with Enia at the Roundtable Hold, to receive this weapon."
+  },
+  {
+    "id": "sote_fextra_20503",
+    "name": "Chilling Perfume Bottle",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/chilling_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Chilling Perfume Bottle is a Perfume Bottle in Elden Ring. It is a brand new Perfume Bottle in the Shadow of the Erdtree DLC. The Chilling Perfume Bottle scales primarily with Strength, Dexterity and Intelligence and is a good Weapon for DEX/INT builds and deals Frostbite. This weapon produces frost buildup and is capable of releasing blasts of ice over a wide area.",
+    "route": "weapons",
+    "questId": "sote_20503",
+    "location": "The Chilling Perfume Bottle weapon can be found at the following location: \n Lamenter's Gaol, after using the Upper Gaol key on the door, descending the ladder, and walking into the room with the frozen floor, some Jar Innards will come out of a door to your right. The Chilling Perfume Bottle is in that room. [Elden Ring Shadow of the Erdtree Map Link] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20504",
+    "name": "Deadly Poison Perfume Bottle",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/deadly_poison_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Deadly Poison Perfume Bottle is a Perfume Bottle in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Deadly Poison Perfume Bottle scales primarily with Strength, Dexterity and Arcane and is a good backup Weapon for arcane builds. This weapon causes poison buildup and causes a mist of poison to spread out using the weapon skill.",
+    "route": "weapons",
+    "questId": "sote_20504",
+    "location": "The Deadly Poison Perfume Bottle weapon can be found at the following location: \n Can be purchased from Thiollier for 6000 Runes. [See Shadow of the Erdtree Map] \n After breaking Miquella's spell and speaking with Thioller to the point that he advances to the Stone Coffin Fissure, his shop items will be added to Moore's bell bearing."
+  },
+  {
+    "id": "sote_fextra_20506",
+    "name": "Firespark Perfume Bottle",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/firespark_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Firespark Perfume Bottle is a Perfume Bottle in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Firespark Perfume Bottle scales exclusively with Dexterity and is a good Weapon for high Fire Damage and pure DEX Builds. This weapon produces explosions while in the air that spread in a wide area.",
+    "route": "weapons",
+    "questId": "sote_20506",
+    "location": "The Firespark Perfume Bottle weapon can be found at the following location: \n Found in an elevated area South of the Castle Front Site of Grace, in a chest guarded by both Perfumers and Messmer Soldiers. [Elden Ring Shadow of the Erdtree Map Link]"
+  },
+  {
+    "id": "sote_fextra_20509",
+    "name": "Frenzyflame Perfume Bottle",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frenzyflame_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Frenzyflame Perfume Bottle is a Perfume Bottle in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Frenzyflame Perfume Bottle scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for inflicting Madness status effect on all enemies within its radius.",
+    "route": "weapons",
+    "questId": "sote_20509",
+    "location": "The Frenzyflame Perfume Bottle weapon can be found at the following location: \n Looted from a dead body located at the northern interior of the Abandoned Church in Abyssal Woods [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20511",
+    "name": "Lightning Perfume Bottle",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lightning_perfume_bottle_perfume_bottles_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Lightning Perfume Bottle is a Perfume Bottle in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Lightning Perfume Bottle scales primarily with Dexterity and Faith and is a good Weapon for Lightning and Dexterity/Faith Builds. This weapon can release a barrage of lightning over a wide area.",
+    "route": "weapons",
+    "questId": "sote_20511",
+    "location": "The Lightning Perfume Bottle can be found at the following location: \n Found on a corpse to the northeast of the Cerulean Coast Site of Grace, laying in a pool of water guarded by a lightning ram [Map Link]."
+  },
+  {
+    "id": "sote_fextra_20512",
+    "name": "Dryleaf Seal",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dryleaf_seal_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Dryleaf Seal is a Sacred Seal in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Dryleaf Seal scales primarily with Strength and Faith and is a good Weapon for Faith casters wanting to use rings of light incantations and benefit from its powerful scaling.",
+    "route": "weapons",
+    "questId": "sote_20512",
+    "location": "The Dryleaf Seal weapon can be found at the following location: \n Found on a ledge under a cave guarded by gravebirds in the area under Bonny Village. You can only reach this section by going through the secret passage in Shadow Keep and using the coffin there to transport to Ruins of Unte via Castle Watering Hole. From Ruins of Unte, make your way to the Recluses' River Upstream site of grace, then ride south along the cliffs. Cross the chasm and continue onwards, making your way to a small graveyard guarded by grave-birds. Near the ledge there is a game-message which indicates the point to drop down to find this item. [Elden Ring Map]"
+  },
+  {
+    "id": "sote_fextra_20508",
+    "name": "Fire Knight's Seal",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_knights_seal_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Fire Knight's Seal is a Sacred Seal in Elden Ring. It is a brand new Sacred Seal in the Shadow of the Erdtree DLC. The Fire Knight's Seal scales primarily with Strength and Faith and is a good Weapon for Builds centered around the new Messmer Fire Incantations.",
+    "route": "weapons",
+    "questId": "sote_20508",
+    "location": "The Fire Knight's Seal weapon can be found at the following location: \n Shadow Keep: In the building with the giant Queen Marika statue, it is behind the statue. You have to use the lever to lower the water level. [Elden Ring Shadow of the Erdtree Interactive Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20510",
+    "name": "Spiraltree Seal",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/spiraltree_seal_unique_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Spiraltree Seal is a Sacred Seal in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Spiraltree Seal scales primarily with Strength and Faith and is a good Weapon for Builds centered around Spiral Incantations.",
+    "route": "weapons",
+    "questId": "sote_20510",
+    "location": "The Spiraltree Seal weapon can be found at the following location: \n Reward for completing \"The Sacred Tower\" Painting Puzzle. [Elden Ring Shadow of the Erdtree Interactive Map]  \n The painting itself can be found in a small cave north-east from Scorched Ruins in Gravesite Plain, with the solution being found on the high ground above Temple Town Ruins. See the Painting Puzzle page for more. \n Note: “The Sacred Tower” Painting Puzzle can only be completed after gaining access to Enir-Ilim. Making the Spiraltree Seal unobtainable until then."
+  },
+  {
+    "id": "sote_fextra_20515",
+    "name": "Bloodfiend's Fork",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodfiends_fork_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Bloodfiend's Fork is a Spear in Elden Ring. It is a brand new Spear in the Shadow of the Erdtree DLC. The Bloodfiend's Fork scales primarily with Strength, Dexterity and Arcane and is a good Weapon for Bleed and Arcane Builds. This weapon causes blood loss build-up and can increase attack power by using the Barbaric Roar skill along with a combo.",
+    "route": "weapons",
+    "questId": "sote_20515",
+    "location": "The Bloodfiend's Fork weapon can be found at the following location: \n Has a 3.0% dropped from Bloodfiends who wield it (you can find two in a melee battle not far from Ruined Forge Lava Intake) [Map Link] \n At least six can be found at Prospect Town, four within the ruins and two nearby at a destroyed camp. [Map Link] \n The bloodfiends found at Stone Coffin Fissure also have a chance to drop this weapon. [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20517",
+    "name": "Smithscript Spear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/smithscript_spear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Smithscript Spear is a Spear in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Smithscript Spear scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for players that want a ranged melee alternative without a FP cost. As a Smithscript weapon, it can be thrown and immediately returns to the user's hand.",
+    "route": "weapons",
+    "questId": "sote_20517",
+    "location": "The Smithscript Spear weapon can be found at the following location: \n Ruined Forge Starfall Past: The weapon is looted from a body located on the main floor of the Ruined Forge of Starfall Past. [Map Link] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20516",
+    "name": "Swift Spear",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/swift_spear_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Swift Spear is a Spear in Elden Ring. It is a brand new Spear in the Shadow of the Erdtree DLC. The Swift Spear scales primarily with Dexterity and is a good Weapon for builds that like to attack rapidly with decent range. This weapon is good for its high attack speed and can be paired with a shield. This also comes with Impaling Thrust, which goes through an enemy's guard.",
+    "route": "weapons",
+    "questId": "sote_20516",
+    "location": "The Swift Spear weapon can be found at the following location: \n Can be found lying on a corpse guarded by 3 Messmer Soldiers along the road going South-East from the Castle Front site of grace. [See Shadow of the Erdtree Map]"
+  },
+  {
+    "id": "sote_fextra_20513",
+    "name": "Stone-Sheathed Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/stone-sheathed_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Stone-Sheathed Sword is a Straight Sword in Elden Ring. It is a brand new Straight Sword in the Shadow of the Erdtree DLC. The Stone-Sheathed Sword scales primarily with Strength and Dexterity and can be transformed into the Sword of Darkness or the Sword of Light. It's skill, the Square off, lets you slash upwards or thrust when attacking.",
+    "route": "weapons",
+    "questId": "sote_20513",
+    "location": "The Stone-Sheathed Sword weapon can be found at the following location: \n Can be acquired at one of the 3 Altar locations: \n   \n   Fog Rift Catacombs (on top of the 3 trap platforms and run to the furthest right corner) \n   Ruins of Unte (behind the inactive Furnace Golem, to the right from the chest that holds Giant Golden Arc) \n   Ancient Ruins of Rauh (on a tower connected by an invisible bridge beyond a large room of Kindred of Rot).  [See Shadow of the Erdtree Map] [Video Link] \n    \n The first of the three altars you interact with will grant you the Stone-Sheathed Sword. Once the sword is obtained, interacting with the other two altars will transform it into either Sword of Darkness or Sword of Light. \n   \n   After first transforming it to the Sword of Darkness or Light, interacting with the other altar will transform it to the other. This can be repeated indefinitely. The Sword's upgrade levels are retained when you transform it; i.e. transforming a Stone-Sheathed Sword +9 will get you a Sword of Light/Darkness +9. \n   The altar with the highest elevation (Rauh > Unte > Catacombs) will transform the sword into the Sword of Light. The altar with the lower elevation will transform it into the Sword of Darkness. \n    \n The Stone-Sheathed Sword will be permanently lost if it is converted into the Sword of Darkness or Sword of Light. The only way to acquire another example of the weapon is via NG+."
+  },
+  {
+    "id": "sote_fextra_20514",
+    "name": "Sword of Darkness",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sword_of_darkness_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Sword of Darkness is a Straight Sword in Elden Ring. It is found in the Shadow of the Erdtree DLC. The Sword of Darkness scales primarily with Strength, Dexterity, and Faith and has a counterpart called Sword of Light. This is similar to the sword of light since it also gives 93 holy damage.",
+    "route": "weapons",
+    "questId": "sote_20514",
+    "location": "The Sword of Darkness weapon can be found at the following location: \n Obtained by raising Stone-Sheathed Sword or Sword of Light (see below): \n You can get Stone-Sheathed Sword at one of the 3 Altar locations: Fog Rift Catacombs (on top of the 3 trap platforms and run to the furthest right corner), Ruins of Unte (flowery courtyard), or Ancient Ruins of Rauh (on a tower connected by invisible floor). Once acquired, the altar from which the sword is acquired will become inert, and the sword can then be transformed into the Sword of Darkness or Sword of Light at one of the 2 other Altars. [Video Link] \n   \n   It is recommended to acquire the Stone-Sheathed Sword from the Fog Rift Catacombs, as the labyrinthine nature of the dungeon makes it ill-suited for repeated visits should players wish to change the Sword to either its light or dark variants."
+  },
+  {
+    "id": "sote_fextra_20520",
+    "name": "Sword of Light",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sword_of_light_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Sword of Light is a Straight Sword in Elden Ring. It is a Straight Sword introduced in the Shadow of the Erdtree DLC. The Sword of Light scales primarily with Strength, Dexterity, and Faith and has a counterpart called the Sword of Darkness. Straight swords in general can be used with good speed and power. While this straight sword, comes with 93 holy damage.",
+    "route": "weapons",
+    "questId": "sote_20520",
+    "location": "The Sword of Light weapon can be found at the following location: \n Obtained by acquiring the Stone-Sheathed Sword or Sword of Darkness (see below): \n You can get Stone-Sheathed Sword at one of the 3 Altar locations: Fog Rift Catacombs (on top of the 3 trap platforms and run to the furthest right corner), Ruins of Unte (flowery courtyard), or Ancient Ruins of Rauh (on a tower connected by invisible floor). Once acquired, the altar from which the sword is acquired will become inert, and the sword can then be transformed into the Sword of Darkness or Sword of Light at one of the 2 other Altars. \n   \n   It is recommended to acquire the Stone-Sheathed Sword from the Fog Rift Catacombs, as the labyrinthine nature of the dungeon makes it ill-suited for repeated visits should players wish to change the Sword to either its light or dark variants."
+  },
+  {
+    "id": "sote_fextra_20519",
+    "name": "Velvet Sword of St Trina",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/velvet_sword_of_st_trina_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Velvet Sword of St. Trina is a Straight Sword in Elden Ring. It is a brand new Straight Sword in the Shadow of the Erdtree DLC. The Velvet Sword of St Trina scales primarily with Strength, Dexterity and Intelligence and is a good Weapon for players looking for magic damage straight sword. This also has a strong base physical damage of 95. It produces eternal sleep build-up and a skill named Mists of Eternal Sleep that releases a cloud of purple mist when you perform a slash.",
+    "route": "weapons",
+    "questId": "sote_20519",
+    "location": "The Velvet Sword of St Trina weapon can be found at the following location: \n Stone Coffin Fissure: From the Fissure Cross site of grace, walk immediately north-west to the closest giant coffin that's tilted nearly vertical. Climb down to a ledge that passes underneath the brick platform nearest the site of grace. The sword is in a small cave network there and guarded by several putrescent oozes.  [See Shadow of the Erdtree Map] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20521",
+    "name": "Smithscript Dagger",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/smithscript_dagger_throwing_blade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Smithscript Dagger is a Throwing Blade in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Smithscript Dagger scales primarily with Strength, Dexterity, Intelligence and Faith and is a good Weapon for players that want a ranged melee alternative without a FP cost. As a Smithscript weapon, it can be thrown and immediately returns to the user's hand. The Smithscript Dagger is one of a few non-Claw/Fist Paired Weapons.",
+    "route": "weapons",
+    "questId": "sote_20521",
+    "location": "The Smithscript Dagger weapon can be found at the following location: \n Ruined Forge Lava Intake. Take the first ladder down, past the golem, and after the fire blob turn right. As soon as you enter the room past the Fire Blob, slightly to the left. You can also drop down to this area from the lever's location. At the end of the hallway, you will find a golem and this weapon on a corpse near the back wall. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20522",
+    "name": "Carian Thrusting Shield",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_thrusting_shield_thrusting_shields_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Carian Thrusting Shield is a Thrusting Shield in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Carian Thrusting Shield scales primarily with Strength, Dexterity and Intelligence and is a good Weapon for players that want to experience the new weapon type added with Shadow of the Erdtree. It gives a high guard boost for good stamina management while blocking and provides resistances to physical and magical damage.",
+    "route": "weapons",
+    "questId": "sote_20522",
+    "location": "The Carian Thrusting Shield weapon can be found at the following location: \n Shadow Keep: From the \"Storehouse, Back Section\" site of grace, go west and you will reach a room where you find a Fire Knight and a few other enemies. The item is right past the Fire Knight and can be found on a corpse under the table. [See Shadow of the Erdtree Map] [Video Location]"
+  },
+  {
+    "id": "sote_fextra_20518",
+    "name": "Dueling Shield",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dueling_shield_thrusting_shields_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Dueling Shield is a Thrusting Shield in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Dueling Shield scales primarily with Strength and Dexterity and is a good Weapon for experiencing the new weapon type added with Shadow of the Erdtree. It has high guard boost, allowing good stamina management when blocking attacks. The shield also has resistances to both physical and elemental damage types, making it a good almost all-around choice.",
+    "route": "weapons",
+    "questId": "sote_20518",
+    "location": "The Dueling Shield weapon can be found at the following location: \n Shadow Keep: From the Storehouse, First Floor site of grace, go North around the specimen pillar towards the stairs, and turn immediately left after going up them. \n Keep going straight until you see another staircase to your right (immediately past the room that Sir Ansbach moves to). \n Go to your left towards the large flight of stairs and go up them. \n Sneak past or kill the Fire Knight you see to your right. \n To his left you'll see a path. Go down it until you get to the bull-like specimen hanging from the ceiling. \n Keep your eye to the left and you'll see a corpse with the shield and a small section of wall that will let you get to the shield."
+  },
+  {
+    "id": "sote_fextra_20523",
+    "name": "Carian Sorcery Sword",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_sorcery_sword_thrusting_sword_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Carian Sorcery Sword is a Thrusting Sword in Elden Ring. It was added with the Shadow of the Erdtree DLC. The Carian Sorcery Sword scales primarily with Strength, Dexterity and Intelligence and is a good Weapon for players looking for a weapon that can also serve as a catalyst for spells.",
+    "route": "weapons",
+    "questId": "sote_20523",
+    "location": "The Carian Sorcery Sword weapon can be found at the following location: \n In a chest that can be found after dropping down into Castle Ensis from the cliff just west of the waterfall to the west of the Highroad Cross Site of Grace in Scadu Altus. [Elden Ring Shadow of the Erdtree Map Link] [Video Link]"
+  },
+  {
+    "id": "sote_fextra_20525",
+    "name": "Black Steel Twinblade",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_steel_twinblade_twinblade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Black Steel Twinblade is a Twinblade in Elden Ring. It is a brand new Twinblade in the Shadow of the Erdtree DLC. The Black Steel Twinblade scales primarily with Strength and Dexterity and is a good Weapon for builds that want to maintain Faith Scaling despite changing its infusion. This weapon does Physical and Holy damage and comes with the Spinning Slash skill.",
+    "route": "weapons",
+    "questId": "sote_20525",
+    "location": "The Black Steel Twinblade weapon can be found at the following location: \n Drops from the Black Knight located at the top of western camp in Scadu Altus (Northeast of Church of the Crusade) [Map Link]"
+  },
+  {
+    "id": "sote_fextra_20526",
+    "name": "Euporia",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/euporia_twinblade_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Euporia is a Twinblade in Elden Ring. It is a brand new Twinblade in the Shadow of the Erdtree DLC. The Euporia scales primarily with Strength, Dexterity and Faith and is a good Weapon for Faith players looking for a twinblade. One of its unique features is its ability to powerup the weapon skill when attacking enemies.",
+    "route": "weapons",
+    "questId": "sote_20526",
+    "location": "The Euporia weapon can be found at the following location: \n Belurat Tower Settlement [Shadow of the Erdtree Map] [Video Link] \nBelow, you can find a guide how to reach the room where you can find this weapon. Reaching this area requires story progression and takes place in the endgame part of the DLC. For a detailed walkthrough of the legacy dungeon, you can visit the Enir-Ilim page. Click \"show\" to reveal the guide on how to find this weapon.  \n How to Get the Euporia Weapon in Elden Ring \n The area just before the Spiral Rise Site of Grace [See Elden Ring Map] has a lot of loot that you shouldn't miss. From the Site of Grace, backtrack your way down the stairs, then turn left to find a set of steps going down. As you go through the archway, there will be a room on your right containing x1 Inquisitor Ashes. Go to the other archway just before the room, and you will see a staircase that you can drop down to that has an item. \n     \n Drop down to the stairs, and you can pick up x2 Fireproof Pickled Liver from the body. Head up the stairs, then look below the broken railings to find a ledge that you can drop down to. Look down on the southeastern section of the ledge, and you will find another area that you can drop down to. \n      \n Drop down to it, then follow the ledge going south. You'll come across a broken section going to an item. Jump to get to the other side, and you can pick up x1 Holyproof Pickled Liver. After looting it, drop down from the broken section of the ledge, then pick up the nearby item, which is x2 Smithing Stone [8]. \n     \n Follow the ledge going south. Be careful as there are pillars are blocking off some parts of ledge, making it tough to navigate. Keep hugging the wall just to be safe. When you go around the corner, you will find another area that you can jump down to. Jump down the area, then traverse the ledge going southwest. \n    \n Keep following it, and you will acquire x10 Lordsworn's Bolt from a dead body at the end of it. After looting the body, follow the ledge to the other direction going down, and you'll be at a broken section of the ledge. Drop down it, and you will land near a hostile Shadow Undead. Kill it, then pick up x1 Somber Smithing Stone [5] nearby. Go down the stairs, and you'll find x1 Fireproof Pickled Liver from a dead body. \n    \n Belurat Tower Settlement Section \n To progress further, sprint jump down the window south of the dead body containing x1 Fireproof Pickled Liver. \n   \n Once you have successfully jumped on the window, head inside the structure. The section you are in will be inside Belurat, Tower Settlement. Head out of the room, and you will end up in a courtyard. Kill the Spider Scorpion and pick up the x1 Scadutree Fragment by the covered statue. There are two other rooms that you can enter from the courtyard. The room on the east has a lift that you can take to return to Enir-Ilim, while the room on the south has a lift going down Belurat, Tower Settlement. Ride down the lift in the southern room. \n    \n After taking the lift, head outside by going through the archway on the southeastern side of the room. Follow the path by going down a staircase that leads you to a room containing Inquisitor enemies. After clearing the room, follow the path going southwest. Head down the stairs, and you'll encounter a Horned Warrior patrolling the area. You can either fight it head-on, or you can sneak around as the Horned Warrior is patrolling in a way that you can sneak around it. \n    \n After dealing with the Horned Warrior with whichever method you choose, head inside the structure then go down the stairs on the western side. Go down the lift, and you will arrive in an area with a bridge crossing to a door. \n    \n Cross the bridge, then open the door. You'll find a dead body by the altar, which you can loot for the Euporia twinblade."
+  },
+  {
+    "id": "sote_fextra_20524",
+    "name": "Tooth Whip",
+    "image": "https://eldenring.wiki.fextralife.com/file/Elden-Ring/tooth_whip_whips_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    "description": "Tooth Whip is a Whip in Elden Ring. It is a brand-new Whip in the Shadow of the Erdtree DLC. The Tooth Whip scales primarily with Strength and Dexterity and is a good Weapon for players looking for a Poison whip. This applies posionbuildup and comes with the painful strike skill.",
+    "route": "weapons",
+    "questId": "sote_20524",
+    "location": "The Tooth Whip weapon can be found at the following location: \n Found inside the Whipping Hut. [See Shadow of the Erdtree Map]"
+  }
+]

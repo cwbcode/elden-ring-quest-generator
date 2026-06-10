@@ -1,5 +1,6 @@
 import TabsContainer from "./components/TabsContainer";
-import { scrapeSoteAPI } from "./sote-api";
+import fs from 'fs';
+import path from 'path';
 import { IdListItem, EldenRingListResponse, routes } from "./types";
 
 const api = 'https://eldenring.fanapis.com/api'
@@ -36,9 +37,23 @@ const scrapeAPI = async () => {
 
 
 
+const loadStaticSoteData = (): Array<IdListItem> => {
+  const soteList: Array<IdListItem> = [];
+  const dir = path.join(process.cwd(), 'public', 'data', 'sote');
+  if (!fs.existsSync(dir)) return [];
+  for (const route of routes) {
+    const file = path.join(dir, `${route}.json`);
+    if (fs.existsSync(file)) {
+      const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+      soteList.push(...data);
+    }
+  }
+  return soteList;
+};
+
 export default async function Home() {
   const questList: Array<IdListItem> = await scrapeAPI();
-  const soteList: Array<IdListItem> = await scrapeSoteAPI();
+  const soteList: Array<IdListItem> = loadStaticSoteData();
 
   return (
     <div className="flex min-h-screen justify-center bg-[#0a0a09] font-sans text-[#e6ddc5]">
