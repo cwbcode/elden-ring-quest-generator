@@ -29,6 +29,7 @@ export default function ClientGate({ questList, storagePrefix = "", onNewJourney
   const [questListState, setQuestListState] = useState<Array<IdListItem>>([]);
   const [unobtainablePool, setUnobtainablePool] = useState<Array<IdListItem>>([]);
   const [selectedFilter, setSelectedFilter] = useState<Route | 'any'>('any');
+  const [isListCollapsed, setIsListCollapsed] = useState(true);
 
   useEffect(() => {
     setIsMounted(true);
@@ -240,6 +241,29 @@ export default function ClientGate({ questList, storagePrefix = "", onNewJourney
   const logQuests = questLog.filter(q => q.inLog && !q.completed && !q.unobtainable);
   const logCount = logQuests.length;
 
+  const completedQuestsCount = questLog.filter(q => q.completed).length;
+  const hasOverTenCompleted = completedQuestsCount > 10;
+  const shouldCollapse = hasOverTenCompleted && isListCollapsed;
+  const displayedQuests = shouldCollapse ? questLog.slice(-5) : questLog;
+
+  const handleLogQuestClick = (q: QuestLogItem) => {
+    const isQuestShown = !shouldCollapse || displayedQuests.some(dq => dq.questId === q.questId);
+    if (!isQuestShown) {
+      setIsListCollapsed(false);
+      setTimeout(() => {
+        const el = document.getElementById(`quest-${q.questId}`);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 80);
+    } else {
+      const el = document.getElementById(`quest-${q.questId}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <div className="flex flex-col items-center w-full">
       <ProgressBar
@@ -283,7 +307,24 @@ export default function ClientGate({ questList, storagePrefix = "", onNewJourney
         )}
 
         <div className="flex flex-col gap-12 w-full max-w-3xl z-10">
-          {questLog.map(quest => (
+          {shouldCollapse && (
+            <div className="relative pl-12 sm:pl-16 w-full max-w-2xl mx-auto group">
+              {/* Timeline node */}
+              <div className="absolute left-[11px] sm:left-[27px] top-1/2 -translate-y-1/2 w-4 h-4 rounded-full border-2 border-[#d4af37]/50 bg-[#1a1814] z-10 shadow-[0_0_10px_rgba(212,175,55,0.15)] group-hover:border-[#d4af37] transition-colors duration-300" />
+              
+              {/* Button card */}
+              <button
+                onClick={() => setIsListCollapsed(false)}
+                className="text-left w-full rounded-xl border border-[#d4af37]/30 bg-gradient-to-br from-[#1f1b14] to-[#0a0a09] px-4 py-3 sm:px-6 sm:py-4 shadow-[inset_0_1px_1px_rgba(212,175,55,0.1)] hover:border-[#d4af37]/60 hover:shadow-[0_4px_25px_rgba(212,175,55,0.15)] transition-all cursor-pointer"
+              >
+                <span className="text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm hover:text-[#fff] transition-colors">
+                  Show all {questLog.length} quests...
+                </span>
+              </button>
+            </div>
+          )}
+
+          {displayedQuests.map(quest => (
             <ListCard
               key={quest.questId}
               quest={quest}
@@ -313,12 +354,22 @@ export default function ClientGate({ questList, storagePrefix = "", onNewJourney
         </div>
       </div>
 
-      <button
-        onClick={startNewJourney}
-        className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-[60] px-6 py-3 bg-[#110f0a]/90 backdrop-blur-sm border border-[#d4af37]/40 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:bg-[#1a1814] hover:border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all"
-      >
-        New Game+
-      </button>
+      <div className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-[60] flex gap-3 items-center">
+        <button
+          onClick={startNewJourney}
+          className="px-6 py-3 bg-[#110f0a]/90 backdrop-blur-sm border border-[#d4af37]/40 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:bg-[#1a1814] hover:border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all"
+        >
+          New Game+
+        </button>
+        {hasOverTenCompleted && !isListCollapsed && (
+          <button
+            onClick={() => setIsListCollapsed(true)}
+            className="px-6 py-3 bg-[#110f0a]/90 backdrop-blur-sm border border-[#d4af37]/40 text-[#d4af37] font-serif tracking-widest uppercase text-xs sm:text-sm rounded shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:bg-[#1a1814] hover:border-[#d4af37] hover:shadow-[0_0_20px_rgba(212,175,55,0.4)] transition-all"
+          >
+            Collapse list
+          </button>
+        )}
+      </div>
 
       {/* Quest Log Sidebar */}
       {logQuests.length > 0 && (
@@ -326,17 +377,19 @@ export default function ClientGate({ questList, storagePrefix = "", onNewJourney
           {logQuests.slice(0, 5).map(q => (
             <button
               key={q.questId}
-              onClick={() => document.getElementById(`quest-${q.questId}`)?.scrollIntoView({ behavior: 'smooth' })}
-              className="group relative w-12 h-12 rounded bg-[#1a1814] border border-[#d4af37]/40 overflow-hidden shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:border-[#d4af37] hover:scale-110 transition-all flex items-center justify-center cursor-pointer"
+              onClick={() => handleLogQuestClick(q)}
+              className="group relative w-12 h-12 rounded bg-[#1a1814] border border-[#d4af37]/40 shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:border-[#d4af37] hover:scale-110 transition-all flex items-center justify-center cursor-pointer"
             >
               {q.image ? (
-                <img src={q.image} alt={q.name} className="w-full h-full object-cover grayscale-[20%] sepia-[30%]" />
+                <div className="w-full h-full rounded overflow-hidden">
+                  <img src={q.image} alt={q.name} className="w-full h-full object-cover grayscale-[20%] sepia-[30%]" />
+                </div>
               ) : (
                 <span className="text-[#d4af37] font-serif text-xl font-bold">{q.name.charAt(0)}</span>
               )}
 
               {/* Tooltip */}
-              <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1 bg-[#110f0a]/95 border border-[#d4af37]/40 text-[#d4af37] text-sm font-serif whitespace-nowrap rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity">
+              <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 px-3 py-1 bg-[#110f0a]/95 border border-[#d4af37]/40 text-[#d4af37] text-sm font-serif whitespace-nowrap rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity z-50">
                 {q.name}
               </div>
             </button>
