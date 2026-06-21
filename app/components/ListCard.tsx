@@ -83,7 +83,7 @@ export default function ListCard({ quest, completeQuest, addToLog, markUnobtaina
             {commands(quest.route)}
           </p>
           <a
-            href={`https://eldenring.wiki.fextralife.com/${quest.name.replace(/['"‘’“”]/g, "").replace(/\s+/g, "+")}`}
+            href={`https://eldenring.wiki.fextralife.com/${quest.name.replace(/[“"”]/g, "").replace(/\s+/g, "+")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl sm:text-2xl font-serif font-bold tracking-wide drop-shadow-md hover:text-[#fff] hover:underline decoration-[#d4af37]/60 underline-offset-4 transition-colors w-fit"
